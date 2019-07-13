@@ -4,10 +4,12 @@ const styles = {
 
   firstBlock:{
     backgroundColor: '#70c2c4',
-    position: 'relative',
+    position: 'absolute',
     height: '500px',
-    width: '100%',
+    width: '1250px',
     zIndex: '2',
+    top: '850px',
+    opacity: '0.8',
   },
 }
 

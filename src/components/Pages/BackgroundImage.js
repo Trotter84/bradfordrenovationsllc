@@ -6,6 +6,7 @@ const styles = {
   page:{
     height: '2000px',
     marginTop: '80px',
+    position: 'relative',
   },
 
   image:{
