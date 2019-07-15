@@ -2,6 +2,23 @@ import React, { Component } from 'react';
 import Styled from 'styled-components';
 import '../../App.css';
 
+const Btn = Styled.a`
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  font-size: 1.2em;
+  padding: 1.6em 0 1.4em 0;
+  font-weight: bold;
+  height: 80px;
+  width: 100px;
+  background-color: #70c2c4;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  :hover {
+    color: #D1996B;
+  }
+`
 
 const styles = {
   bar:{
@@ -20,19 +37,6 @@ const styles = {
 
   },
 
-  rightButtons:{
-    float: 'left',
-    display: 'block',
-    color: '#f2f2f2',
-    textAlign: 'center',
-    padding: '14px 16px',
-    textDecoration: 'none',
-    height: '80px',
-    width: '80px',
-    backgroundColor: '#70c2c4',
-    cursor: 'pointer',
-
-  },
 }
 
 
@@ -45,8 +49,8 @@ class TopMenu extends Component {
       <div class="navbar" style={styles.bar}>
         <h1>Bradford Renovations LLC</h1>
         <div style={styles.menuButtons}>
-          <a style={styles.rightButtons}>About Us</a>
-          <a style={styles.rightButtons}>Contact</a>
+          <Btn>About Us</Btn>
+          <Btn>Contact</Btn>
         </div>
       </div>
     )
