@@ -10,6 +10,7 @@ import { createBrowserHistory as createHistory } from 'history';
 import TopMenu from './Menus/TopMenu.js';
 import Home from './Pages/Home.js';
 import AboutUs from './Pages/AboutUs.js';
+import Contact from './Pages/Contact.js';
 import '../App.css';
 
 
@@ -30,6 +31,7 @@ class App extends Component {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about-us' component={AboutUs} />
+                <Route path='/contact' component={Contact} />
                 <Redirect to='/' />
               </Switch>
             </div>

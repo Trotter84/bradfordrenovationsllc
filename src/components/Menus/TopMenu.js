@@ -16,6 +16,15 @@ const MenuBar = Styled.div`
   z-index: 3;
 `
 
+const Logo = Styled.h1`
+  padding: 0.4em 0 0 0.5em;
+  font-size: 2.8em;
+  color: white;
+  transition: all 200ms ease-in-out;
+  :hover {
+    color: #D1996B;
+`
+
 const Nav = Styled.div`
 
 `
@@ -26,7 +35,7 @@ const EachNav = Styled(NavLink)`
   color: #f2f2f2;
   text-align: center;
   font-size: 1.2em;
-  padding: 1.6em 0 1.4em 0;
+  padding: 2em 1em 0 0;
   font-weight: bold;
   height: 5.00em;
   width: 6.250em;
@@ -48,7 +57,7 @@ class TopMenu extends Component {
     return (
       <MenuBar>
         <Link to={'/'}>
-          <h1>Bradford Renovations LLC</h1>
+          <Logo>Bradford Renovations LLC</Logo>
         </Link>
         <Nav>
           <EachNav to={'/about-us'}>About Us</EachNav>
