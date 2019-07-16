@@ -8,7 +8,7 @@ const MenuBar = Styled.div`
   display: flex;
   justify-content: space-between;
   background-color: #70c2c4;
-  height: 80px;
+  height: 6.00em;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -28,8 +28,8 @@ const EachNav = Styled(NavLink)`
   font-size: 1.2em;
   padding: 1.6em 0 1.4em 0;
   font-weight: bold;
-  height: 80px;
-  width: 100px;
+  height: 5.00em;
+  width: 6.250em;
   background-color: #70c2c4;
   cursor: pointer;
   transition: all 200ms ease-in-out;

@@ -5,15 +5,13 @@ import 'aos/dist/aos.css';
 import '../../App.css'
 import BackgroundImage from './BackgroundImage.js';
 
-const MainContainer = Styled.div`
-`
 
 const FirstBlock = Styled.div`
   float: left;
   background-color: #70c2c4;
   position: absolute;
-  height: 500px;
-  width: 1250px;
+  height: 35.250em;
+  width: 82.125em;
   border-radius: 0 35px 35px 0;
   z-index: 2;
   top: 650px;
@@ -22,11 +20,11 @@ const FirstBlock = Styled.div`
 
 const SecondBlock = Styled.div`
   float: right;
-  left: 200px;
+  left: 275px;
   background-color: #70c2c4;
   position: absolute;
-  height: 500px;
-  width: 1250px;
+  height: 35.250em;
+  width: 82.125em;
   border-radius: 35px 0 0 35px;
   z-index: 2;
   top: 1450px;
@@ -42,7 +40,6 @@ componentDidMount () {
     offset: 300,
     duration: 1000,
     once: true,
-    opacity: 0.8,
   })
 }
 
@@ -50,12 +47,12 @@ componentDidMount () {
     return (
       <div>
         <BackgroundImage />
-        <MainContainer>
+        <div>
           <FirstBlock data-aos="fade-right">
           </FirstBlock>
           <SecondBlock data-aos="fade-left">
           </SecondBlock>
-        </MainContainer>
+        </div>
       </div>
     )
   }

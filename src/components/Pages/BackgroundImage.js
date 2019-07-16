@@ -4,13 +4,12 @@ import MainPhoto from '../../images/bigstock-Beautiful-Custom-Kitchen-Desig-1152
 
 const styles = {
   page:{
-    height: '2000px',
-    marginTop: '80px',
+    height: '125.000em',
+    marginTop: '5.00em',
     position: 'relative',
   },
 
   image:{
-    width: '100%',
     position: 'absolute',
   },
 }
