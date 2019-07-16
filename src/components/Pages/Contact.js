@@ -29,7 +29,7 @@ const Title = Styled.h2`
 class Contact extends Component {
 
   componentDidMount() {
-    document.title='About Us'
+    document.title='Contact'
 
     AOS.init({
       offset: 300,

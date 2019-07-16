@@ -16,6 +16,10 @@ import '../App.css';
 
 class App extends Component {
 
+  componentDidMount() {
+    document.title='Bradford Renovations LLC'
+  }
+
   constructor() {
     super();
     this.history = createHistory();

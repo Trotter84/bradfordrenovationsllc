@@ -36,16 +36,20 @@ const Title = Styled.h2`
 `
 
 class Home extends Component {
+
   constructor(props){
     super(props);
   }
-componentDidMount () {
-  AOS.init({
-    offset: 300,
-    duration: 1000,
-    once: true,
-  })
-}
+
+  componentDidMount () {
+    document.title='Bradford Renovations LLC'
+
+    AOS.init({
+      offset: 300,
+      duration: 1000,
+      once: true,
+    })
+  }
 
   render() {
     return (
