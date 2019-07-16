@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'semantic-ui-react';
-import MainPhoto from '../../images/These-mortgages-pay-for-home-renovations.jpg';
+import MainPhoto from '../../images/bigstock-Beautiful-Custom-Kitchen-Desig-115242206.jpg'
 
 const styles = {
   page:{

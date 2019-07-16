@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import Styled from 'styled-components';
+import BackgroundImage from './BackgroundImage.js';
+
 
 const Hello = Styled.div`
-  padding-top: 1000px;
-  background-color: red;
+  position: absolute;
+  z-index: 2;
+  top: 500px;
 `
 
 
@@ -15,9 +18,12 @@ class AboutUs extends Component {
 
   render() {
     return (
-      <Hello>
-        <div>Hello doooods</div>
-      </Hello>
+      <div>
+        <BackgroundImage />
+        <Hello>
+          <h1>Hello doooods</h1>
+        </Hello>
+      </div>
     )
   };
 }
