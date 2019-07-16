@@ -1,8 +1,26 @@
 import React, { Component } from 'react';
 import Styled from 'styled-components';
+import { NavLink, Link } from 'react-router-dom';
 import '../../App.css';
 
-const Btn = Styled.a`
+
+const MenuBar = Styled.div`
+  display: flex;
+  justify-content: space-between;
+  background-color: #70c2c4;
+  height: 80px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+`
+
+const Nav = Styled.div`
+
+`
+
+const EachNav = Styled(NavLink)`
   float: left;
   display: block;
   color: #f2f2f2;
@@ -20,24 +38,6 @@ const Btn = Styled.a`
   }
 `
 
-const styles = {
-  bar:{
-    display: 'flex',
-    justifyContent: 'space-between',
-    backgroundColor: '#70c2c4',
-    height: '80px',
-    overflow: 'hidden',
-    position: 'fixed',
-    top: '0',
-    width: '100%',
-    zIndex: '1',
-  },
-
-  menuButtons:{
-
-  },
-
-}
 
 
 class TopMenu extends Component {
@@ -46,13 +46,15 @@ class TopMenu extends Component {
 
   render() {
     return (
-      <div class="navbar" style={styles.bar}>
-        <h1>Bradford Renovations LLC</h1>
-        <div style={styles.menuButtons}>
-          <Btn>About Us</Btn>
-          <Btn>Contact</Btn>
-        </div>
-      </div>
+      <MenuBar>
+        <Link to={'/'}>
+          <h1>Bradford Renovations LLC</h1>
+        </Link>
+        <Nav>
+          <EachNav to={'/about-us'}>About Us</EachNav>
+          <EachNav to={'/contact'}>Contact</EachNav>
+        </Nav>
+      </MenuBar>
     )
   }
 

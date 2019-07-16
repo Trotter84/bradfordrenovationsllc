@@ -1,20 +1,43 @@
-import React from 'react';
-import logo from '../logo.svg';
+import React, { Component } from 'react';
+import {
+  Route,
+  Switch,
+  Redirect,
+  Router
+} from 'react-router-dom';
+import { ScrollManager, WindowScroller } from 'react-scroll-manager';
+import { createBrowserHistory as createHistory } from 'history';
 import TopMenu from './Menus/TopMenu.js';
-import BackgroundImage from './Pages/BackgroundImage.js';
 import Home from './Pages/Home.js';
+import AboutUs from './Pages/AboutUs.js';
 import '../App.css';
 
-function App() {
-  return (
-    <div>
-      <TopMenu />
-      <div>
-        <BackgroundImage />
-        <Home />
-      </div>
-    </div>
-  );
+
+class App extends Component {
+
+  constructor() {
+    super();
+    this.history = createHistory();
+  }
+
+  render() {
+    return (
+      <ScrollManager history={this.history}>
+        <Router history={this.history}>
+          <WindowScroller>
+            <div>
+              <TopMenu />
+              <Switch>
+                <Route exact path='/' component={Home} />
+                <Route path='/about-us' compont={AboutUs} />
+                <Redirect to='/' />
+              </Switch>
+            </div>
+          </WindowScroller>
+        </Router>
+      </ScrollManager>
+    );
+  }
 }
 
 export default App;
