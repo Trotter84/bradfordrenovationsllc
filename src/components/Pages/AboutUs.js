@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import Styled from 'styled-components';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import BackgroundImage from './BackgroundImage.js';
 
 
@@ -21,7 +23,6 @@ const BoxContainer = Styled.div`
 
 const Title = Styled.h2`
   padding: 3em 0 0 3em;
-
 `
 
 
@@ -29,6 +30,12 @@ class AboutUs extends Component {
 
   componentDidMount() {
     document.title='About Us'
+
+    AOS.init({
+      offset: 300,
+      duration: 1000,
+      once: true,
+    })
   }
 
   render() {
@@ -36,7 +43,7 @@ class AboutUs extends Component {
       <div>
         <BackgroundImage />
         <MainContainer>
-          <BoxContainer>
+          <BoxContainer data-aos="fade-in">
             <Title>About Us...</Title>
           </BoxContainer>
         </MainContainer>

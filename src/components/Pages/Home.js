@@ -31,6 +31,10 @@ const SecondBlock = Styled.div`
   opacity: 0.8;
 `
 
+const Title = Styled.h2`
+  padding: 3em 0 0 3em;
+`
+
 class Home extends Component {
   constructor(props){
     super(props);
@@ -49,8 +53,10 @@ componentDidMount () {
         <BackgroundImage />
         <div>
           <FirstBlock data-aos="fade-right">
+            <Title>Info...</Title>
           </FirstBlock>
           <SecondBlock data-aos="fade-left">
+            <Title>More Info...</Title>
           </SecondBlock>
         </div>
       </div>
