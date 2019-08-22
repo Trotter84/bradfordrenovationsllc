@@ -7,11 +7,13 @@ import {
 } from 'react-router-dom';
 import { ScrollManager, WindowScroller } from 'react-scroll-manager';
 import { createBrowserHistory as createHistory } from 'history';
-import TopMenu from './Menus/TopMenu.js';
-import Home from './Pages/Home.js';
-import AboutUs from './Pages/AboutUs.js';
-import Contact from './Pages/Contact.js';
 import '../App.css';
+
+import TopMenu from './menus/TopMenu';
+import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
+import ContactUs from './pages/ContactUs';
+import Footer from './menus/Footer';
 
 
 class App extends Component {
@@ -35,9 +37,10 @@ class App extends Component {
               <Switch>
                 <Route exact path='/' component={Home} />
                 <Route path='/about-us' component={AboutUs} />
-                <Route path='/contact' component={Contact} />
+                <Route path='/contact-us' component={ContactUs} />
                 <Redirect to='/' />
               </Switch>
+              <Footer />
             </div>
           </WindowScroller>
         </Router>

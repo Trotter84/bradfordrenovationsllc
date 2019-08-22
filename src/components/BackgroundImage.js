@@ -1,0 +1,28 @@
+import React, { Component } from 'react';
+import { Image } from 'semantic-ui-react';
+import MainPhoto from '../images/kitchen-background.jpg'
+
+const styles = {
+  page:{
+    height: '100%',
+    position: 'relative',
+  },
+
+  image:{
+    position: 'absolute',
+  },
+}
+
+
+class BackgroundImage extends Component {
+
+  render() {
+    return (
+      <div style={styles.page}>
+        <Image style={styles.image} src={MainPhoto} />
+      </div>
+    )
+  }
+}
+
+export default BackgroundImage;
