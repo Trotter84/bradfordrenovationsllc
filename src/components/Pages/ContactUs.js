@@ -8,9 +8,18 @@ class ContactUs extends Component {
   render() {
     return(
       <div id='contactUsContainer'>
-        <BackgroundImage />
         <div id='contactUsSubContainer'>
-          <h1>Contact Us</h1>
+          <form name="contact" netlify>
+            <p>
+              <label>Name <input type="text" name="name" /></label>
+            </p>
+            <p>
+              <label>Email <input type="email" name="email" /></label>
+            </p>
+            <p>
+              <button type="submit">Send</button>
+            </p>
+          </form>
         </div>
       </div>
     )
