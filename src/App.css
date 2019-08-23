@@ -8,18 +8,29 @@
 }
 /* -------------------------------- TopMenu -------------------------------- */
 #menuContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #57aa52;
   height: 100px;
 }
 
 #topMenuTitle {
   float: left;
-  color: #61d8cc;
+  color: #d89961;
+  font-size: 35px;
+  padding-left: 1em;
+  text-shadow: 0.5px 0.5px black;
 }
 
 .topMenuText {
+  display: flex;
+  justify-content: space-around;
   float: right;
-  color: #61d8cc;
+  color: #d89961;
+  font-size: 20px;
+  text-shadow: 0.5px 0.5px black;
+  padding-right: 1em;
 }
 /* ------------------------------------------------------------------------- */
 
@@ -37,8 +48,12 @@
 
 /* -------------------------------- Footer -------------------------------- */
 #footerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
   bottom: 0px;
+  height: 50px;
   width: 100%;
   background-color: black;
 }
@@ -46,11 +61,15 @@
 #footerTitle {
   float: left;
   color: white;
+  font-size: 20px;
+  padding-left: 1em;
+
 }
 
 .footerText {
   float: right;
   color: white;
+  padding-right: 1em;
 }
 /* ------------------------------------------------------------------------- */
 
@@ -97,6 +116,13 @@
 /* ============================== Mobile Version ============================== */
 @media (max-width: 360px) {
 
+#mainAppContainer {
+  background-image: url(./images/kitchen-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  height: 600px;
+}
 /* -------------------------------- TopMenu -------------------------------- */
 #menuContainer {
 
@@ -117,6 +143,14 @@
 
 /* -------------------------------- Footer -------------------------------- */
 #footerContainer {
+
+}
+
+#footerTitle {
+
+}
+
+.topMenuText {
 
 }
 /* ------------------------------------------------------------------------- */

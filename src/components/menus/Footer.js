@@ -5,15 +5,15 @@ import Styled from 'styled-components';
 
 const Title = Styled.h2`
   transition: all 200ms ease-in-out;
-  &:hover,&.active {
-    color: black;
+  &:hover {
+    color: #57aa52;
   }
 `
 
 const Nav = Styled(Link)`
   transition: all 200ms ease-in-out;
-  &:hover,&.active {
-    color: black;
+  &:hover {
+    color: #57aa52;
   }
 `
 
