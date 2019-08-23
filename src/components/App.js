@@ -13,6 +13,7 @@ import TopMenu from './menus/TopMenu';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import Careers from './pages/Careers';
 import Footer from './menus/Footer';
 
 
@@ -38,6 +39,7 @@ class App extends Component {
                 <Route exact path='/' component={Home} />
                 <Route path='/about-us' component={AboutUs} />
                 <Route path='/contact-us' component={ContactUs} />
+                <Route path='/careers' component={Careers} />
                 <Redirect to='/' />
               </Switch>
               <Footer />

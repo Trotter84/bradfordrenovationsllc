@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 
+import BackgroundImage from '../BackgroundImage.js';
+
 
 class ContactUs extends Component {
 
   render() {
     return(
-      <h1>ContactUs</h1>
+      <div id='contactUsContainer'>
+        <BackgroundImage />
+        <div id='contactUsSubContainer'>
+          <h1>Contact Us</h1>
+        </div>
+      </div>
     )
   }
 };

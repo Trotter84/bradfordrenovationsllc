@@ -10,7 +10,7 @@ class AboutUs extends Component {
       <div id='aboutUsContainer'>
         <BackgroundImage />
         <div id='aboutUsSubContainer'>
-          <h1>AboutUs</h1>
+          <h1>About Us</h1>
         </div>
       </div>
     )
