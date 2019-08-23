@@ -9,12 +9,12 @@ import { ScrollManager, WindowScroller } from 'react-scroll-manager';
 import { createBrowserHistory as createHistory } from 'history';
 import '../App.css';
 
-import TopMenu from './menus/TopMenu';
-import Home from './pages/Home';
-import AboutUs from './pages/AboutUs';
-import ContactUs from './pages/ContactUs';
-import Careers from './pages/Careers';
-import Footer from './menus/Footer';
+import TopMenu from './menus/TopMenu.js';
+import Home from './pages/Home.js';
+import AboutUs from './pages/AboutUs.js';
+import ContactUs from './pages/ContactUs.js';
+import Careers from './pages/Careers.js';
+import Footer from './menus/Footer.js';
 
 
 class App extends Component {
