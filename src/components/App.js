@@ -33,7 +33,7 @@ class App extends Component {
       <ScrollManager history={this.history}>
         <Router history={this.history}>
           <WindowScroller>
-            <div>
+            <div id='mainAppContainer'>
               <TopMenu />
               <Switch>
                 <Route exact path='/' component={Home} />

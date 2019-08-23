@@ -1,9 +1,25 @@
 /* ============================== Desktop Version ============================== */
-
+#mainAppContainer {
+  background-image: url(./images/kitchenBackgroundFULL.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  height: 720px;
+}
 /* -------------------------------- TopMenu -------------------------------- */
 #menuContainer {
-  background-color: #67D861;
-  max-height: 200px;
+  background-color: #57aa52;
+  height: 100px;
+}
+
+#topMenuTitle {
+  float: left;
+  color: #61d8cc;
+}
+
+.topMenuText {
+  float: right;
+  color: #61d8cc;
 }
 /* ------------------------------------------------------------------------- */
 
@@ -21,7 +37,20 @@
 
 /* -------------------------------- Footer -------------------------------- */
 #footerContainer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
   background-color: black;
+}
+
+#footerTitle {
+  float: left;
+  color: white;
+}
+
+.footerText {
+  float: right;
+  color: white;
 }
 /* ------------------------------------------------------------------------- */
 

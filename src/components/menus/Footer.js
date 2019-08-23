@@ -1,8 +1,21 @@
 import React, { Component } from 'react';
-
 import { NavLink, Link } from 'react-router-dom';
+import Styled from 'styled-components';
 
 
+const Title = Styled.h2`
+  transition: all 200ms ease-in-out;
+  &:hover,&.active {
+    color: black;
+  }
+`
+
+const Nav = Styled(Link)`
+  transition: all 200ms ease-in-out;
+  &:hover,&.active {
+    color: black;
+  }
+`
 
 class Footer extends Component {
 
@@ -10,13 +23,13 @@ class Footer extends Component {
     return(
       <div id='footerContainer'>
         <Link to={`/`}>
-          <h1>Bradford Renovations LLC</h1>
+          <Title id='footerTitle'>Bradford Renovations LLC</Title>
         </Link>
         <NavLink>
-          <Link exact to={'/'}>Home</Link>
-          <Link to={'/about-us'}>About Us</Link>
-          <Link to={'/contact-us'}>Contact Us</Link>
-          <Link to={'/careers'}>Careers</Link>
+          <Nav to={'/careers'} className='footerText'>Careers</Nav>
+          <Nav to={'/contact-us'} className='footerText'>Contact Us</Nav>
+          <Nav to={'/about-us'} className='footerText'>About Us</Nav>
+          <Nav exact to={'/'} className='footerText'>Home</Nav>
         </NavLink>
       </div>
     )

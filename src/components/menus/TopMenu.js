@@ -1,7 +1,21 @@
 import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
+import Styled from 'styled-components';
 
 
+const Title = Styled.h1`
+  transition: all 200ms ease-in-out;
+  &:hover,&.active {
+    color: black;
+  }
+`
+
+const Nav = Styled(Link)`
+  transition: all 200ms ease-in-out;
+  &:hover,&.active {
+    color: black;
+  }
+`
 
 class TopMenu extends Component {
 
@@ -9,12 +23,12 @@ class TopMenu extends Component {
     return(
       <div id='menuContainer'>
         <Link to={`/`}>
-          <h1>Bradford Renovations LLC</h1>
+          <Title id='topMenuTitle'>Bradford Renovations LLC</Title>
         </Link>
         <NavLink>
-          <Link exact to={'/'}>HOME</Link>
-          <Link to={'/about-us'}>ABOUT US</Link>
-          <Link to={'/contact-us'}>CONTACT US</Link>
+          <Nav to={'/contact-us'} className='topMenuText'>Contact Us</Nav>
+          <Nav to={'/about-us'} className='topMenuText'>About Us</Nav>
+          <Nav exact to={'/'} className='topMenuText'>Home</Nav>
         </NavLink>
       </div>
     )

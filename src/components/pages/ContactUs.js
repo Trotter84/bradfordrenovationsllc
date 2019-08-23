@@ -8,8 +8,16 @@ class ContactUs extends Component {
   render() {
     return(
       <div id='contactUsContainer'>
+
+        <form name="bradfordContact" netlify netlify-honeypot="bot-field" hidden>
+          <input type="text" name="name" />
+          <input type="email" name="email" />
+          <textarea name="message"></textarea>
+        </form>
+
         <div id='contactUsSubContainer'>
-          <form name="contact" action="POST" data-netlify="true">
+          <form name="bradfordContact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact" />
             <p>
               <label>Your Name: <input type="text" name="name" /></label>
             </p>
