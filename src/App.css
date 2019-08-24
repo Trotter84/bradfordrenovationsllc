@@ -17,7 +17,7 @@
 
 #topMenuTitle {
   float: left;
-  color: #C9905E;
+  color: #CB9D4E;
   font-size: 45px;
   padding-left: 0.7em;
   text-shadow: 0.5px 0.5px black;
@@ -27,7 +27,7 @@
   display: flex;
   float: right;
   flex-direction: row;
-  color: #C9905E;
+  color: #CB9D4E;
   font-size: 25px;
   text-shadow: 0.5px 0.5px black;
   padding-right: 1em;
@@ -60,6 +60,12 @@
   justify-content: space-around;
   align-items: center;
   padding: 30px;
+}
+
+#contactUsTitle {
+  display: flex;
+  justify-content: center;
+  padding-top: 2em;
 }
 
 #contactForm {

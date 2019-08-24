@@ -16,7 +16,12 @@ class ContactUs extends Component {
           <textarea name="message"></textarea>
         </form>
 
+        <div id='contactUsTitle'>
+          <h2>Wed love to talk to you about how we can help you make your house into your dream home!</h2>
+        </div>
+
         <div id='contactUsSubContainer'>
+
           <div id='contactForm'>
             <form name="bradfordContact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
@@ -34,9 +39,11 @@ class ContactUs extends Component {
               </p>
             </form>
           </div>
+
           <div id="contactPhotoContainer">
             <Image id="contactPhoto" src={SidePhoto} />
           </div>
+
         </div>
       </div>
     )
