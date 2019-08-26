@@ -39,6 +39,20 @@
 /* ------------------------------------------------------------------------- */
 
 /* ----------------------------- About Us Page ----------------------------- */
+#aboutUsContainer {
+  display: block;
+  overflow: auto;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  top: 5.25em;
+}
+
+#aboutUsSubContainer {
+
+}
 
 /* ------------------------------------------------------------------------- */
 
