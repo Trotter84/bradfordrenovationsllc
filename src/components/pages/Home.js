@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import BackgroundImage from '../BackgroundImage.js';
+import JeffsDen from '../../images/jeffsDen.jpg'
+import JeffsDen2 from '../../images/jeffsDen2.jpg'
+import BathroomTub from '../../images/bathroomTub.jpg'
 
 
 class Home extends Component {
@@ -10,17 +13,22 @@ class Home extends Component {
     return(
       <div>
         <div id='carouselContainer'>
+          <div id='carouselSubContainer'>
             <Carousel autoPlay interval={4000} showThumbs={false} infiniteLoop>
-                <Photo className='frontPagePhoto1'>
-                  <img  />
-                </Photo>
-                <Photo className='frontPagePhoto2'>
-                  <img  />
-                </Photo>
-                <Photo className='frontPagePhoto3'>
-                  <img  />
-                </Photo>
+                <div className='frontPagePhoto1'>
+                  <img src={JeffsDen} className='frontPageImage' />
+                </div>
+                <div className='frontPagePhoto2'>
+                  <img src={JeffsDen2} className='frontPageImage' />
+                </div>
+                <div className='frontPagePhoto3'>
+                  <img src={BathroomTub} className='frontPageImage' />
+                </div>
             </Carousel>
+          </div>
+        </div>
+        <div id='whiteTextArea'>
+          <h4>Text here</h4>
         </div>
       </div>
     )

@@ -42,8 +42,8 @@ class App extends Component {
                 <Route path='/careers' component={Careers} />
                 <Redirect to='/' />
               </Switch>
-              <Footer />
             </div>
+            <Footer />
           </WindowScroller>
         </Router>
       </ScrollManager>

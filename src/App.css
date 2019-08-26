@@ -4,7 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 100%;
-  height: 720px;
+  height: 1020px;
 }
 /* -------------------------------- TopMenu -------------------------------- */
 #menuContainer {
@@ -36,8 +36,29 @@
 
 /* ------------------------------- Home Page ------------------------------- */
 #carouselContainer {
-  
+  background-color: white;
+  width: 73%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  top: 3.25em;
 }
+
+#carouselSubContainer {
+  align-items: center;
+  padding: 30px;
+}
+
+.frontPageImage {
+  max-width: 1000px;
+}
+
+#whiteTextArea {
+  background-color: white;
+  height: 30px;
+}
+
 /* ------------------------------------------------------------------------- */
 
 /* ----------------------------- About Us Page ----------------------------- */
@@ -121,8 +142,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: absolute;
-  bottom: 0px;
   height: 50px;
   width: 100%;
   background-color: black;
