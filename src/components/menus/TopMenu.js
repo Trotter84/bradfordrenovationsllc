@@ -15,6 +15,9 @@ const Nav = Styled(Link)`
   &:hover,&.active {
     color: black;
   }
+  &.active {
+    color: black;
+  }
 `
 
 class TopMenu extends Component {

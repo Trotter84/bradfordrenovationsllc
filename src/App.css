@@ -84,6 +84,7 @@
   display: block;
   overflow: auto;
   background-color: white;
+  box-shadow: 5px 6px 10px rgb(107, 107, 107, 0.8);
   width: 90%;
   margin: 0 auto;
   z-index: 1;
