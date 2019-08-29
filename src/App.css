@@ -36,6 +36,7 @@
 
 /* ------------------------------- Home Page ------------------------------- */
 #carouselContainer {
+  box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
   background-color: white;
   width: 73%;
   height: 100%;
@@ -66,6 +67,7 @@
   display: block;
   overflow: auto;
   background-color: white;
+  box-shadow: 2px 3px 3px rgb(107, 107, 107, 0.8);
   width: 90%;
   margin: 0 auto;
   z-index: 1;
@@ -73,8 +75,24 @@
   top: 5.25em;
 }
 
-#aboutUsSubContainer {
+#aboutUsPhotoContainer {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  position: sticky;
+  top: -5.25em;
+}
 
+#aboutUsPhoto {
+  max-height: 300px;
+  box-shadow: 2px 3px 3px rgb(107, 107, 107, 0.8);
+  width: 20em;
+  border-style: solid;
+  border-width: 0.1em;
+  border-color: grey;
+}
+
+#aboutUsWhiteContainer {
 }
 
 /* ------------------------------------------------------------------------- */
@@ -84,7 +102,7 @@
   display: block;
   overflow: auto;
   background-color: white;
-  box-shadow: 5px 6px 10px rgb(107, 107, 107, 0.8);
+  box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
   width: 90%;
   margin: 0 auto;
   z-index: 1;

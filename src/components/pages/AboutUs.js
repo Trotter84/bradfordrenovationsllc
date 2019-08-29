@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 
-import BackgroundImage from '../BackgroundImage.js';
-
+import FacePhoto from '../../images/facePicture.jpg';
 
 class AboutUs extends Component {
 
   render() {
     return(
       <div id='aboutUsContainer'>
-        <div id='aboutUsSubContainer'>
-          <h1>About Us</h1>
+        <div id='aboutUsPhotoContainer'>
+          <img src={FacePhoto} id='aboutUsPhoto' />
+        </div>
+
+        <div id='aboutUsWhiteContainer'>
         </div>
       </div>
     )
