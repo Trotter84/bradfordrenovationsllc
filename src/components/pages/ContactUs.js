@@ -17,7 +17,7 @@ class ContactUs extends Component {
         </form>
 
         <div id='contactUsTitle'>
-          <h2>Wed love to talk to you about how we can help you make your house into your dream home!</h2>
+          <h2>We&apos;d love to talk to you about how we can help you make your house into your dream home!</h2>
         </div>
 
         <div id='contactUsSubContainer'>
