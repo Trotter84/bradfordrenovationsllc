@@ -16,13 +16,13 @@ class Home extends Component {
           <div id='carouselSubContainer'>
             <Carousel autoPlay interval={4000} showThumbs={false} infiniteLoop>
                 <div className='frontPagePhoto1'>
-                  <img src={JeffsDen} className='frontPageImage' />
+                  <img src={JeffsDen} className='frontPageImage' alt='Living room with new flooring' />
                 </div>
                 <div className='frontPagePhoto2'>
-                  <img src={JeffsDen2} className='frontPageImage' />
+                  <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring but different angle' />
                 </div>
                 <div className='frontPagePhoto3'>
-                  <img src={BathroomTub} className='frontPageImage' />
+                  <img src={BathroomTub} className='frontPageImage' alt='Bathroom' />
                 </div>
             </Carousel>
           </div>

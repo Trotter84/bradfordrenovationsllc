@@ -8,7 +8,7 @@ class AboutUs extends Component {
     return(
       <>
         <div id='aboutUsPhotoContainer'>
-          <img src={FacePhoto} id='aboutUsPhoto' />
+          <img src={FacePhoto} id='aboutUsPhoto' alt='Andrew Bradford, with truck and trailer' />
         </div>
         <div id='aboutUsContainer'>
 

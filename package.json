@@ -6,6 +6,7 @@
     "@babel/runtime": "^7.5.4",
     "aos": "^3.0.0-beta.6",
     "babel": "^6.23.0",
+    "carousel": "^0.0.3",
     "history": "^4.9.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
