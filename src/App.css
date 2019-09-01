@@ -67,7 +67,7 @@
   overflow: auto;
   background-color: white;
   box-shadow: 2px 3px 3px rgb(107, 107, 107, 0.8);
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -102,7 +102,7 @@
   overflow: auto;
   background-color: white;
   box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -160,7 +160,7 @@
   display: block;
   background-color: white;
   box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -199,41 +199,46 @@
 #careerFormLeftSide {
   display: flex;
   flex-direction: column;
+  padding-right: 40px;
 }
 
 #careerName {
   font-size: 20px;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 #careerEmail {
   font-size: 20px;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 #careerPhone {
   font-size: 20px;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 #careerFormRightSide {
   display: flex;
   flex-direction: column;
-
+  justify-content: center;
+  align-items: center;
+  padding-left: 40px;
+  width: 500px;
 }
 
 #careerResume {
   font-size: 20px;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 #careerMessage {
   font-size: 20px;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 #careerSubmit {
-  font-size: 20px;
+  width: 55px;
+  font-size: 15px;
   bottom: 10px;
 }
 /* ------------------------------------------------------------------------- */
