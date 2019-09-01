@@ -14,7 +14,7 @@ class Home extends Component {
       <div>
         <div id='carouselContainer'>
           <div id='carouselSubContainer'>
-            <Carousel autoPlay interval={4000} showThumbs={false} infiniteLoop>
+            <Carousel id='homePhotoContainer' autoPlay interval={4000} showThumbs={false} infiniteLoop>
                 <div className='frontPagePhoto1'>
                   <img src={JeffsDen} className='frontPageImage' alt='Living room with new flooring' />
                 </div>
@@ -30,6 +30,25 @@ class Home extends Component {
         <div id='whiteTextArea'>
           <h4>Text here</h4>
         </div>
+        <div id='carouselContainer2'>
+          <div id='carouselSubContainer2'>
+            <Carousel id='homePhotoContainer2' autoPlay interval={4000} showThumbs={false} infiniteLoop>
+                <div className='frontBottomPagePhoto'>
+                  <img src={JeffsDen} className='frontPageImage' alt='Living room with new flooring' />
+                  <p className='homeBottomPhotoText'>Den angle 1</p>
+                </div>
+                <div className='frontBottomPagePhoto2'>
+                  <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring but different angle' />
+                  <p className='homeBottomPhotoText'>Den angle 2</p>
+                </div>
+                <div className='frontBottomPagePhoto3'>
+                  <img src={BathroomTub} className='frontPageImage' alt='Bathroom' />
+                  <p className='homeBottomPhotoText'>Bathroom</p>
+                </div>
+            </Carousel>
+          </div>
+        </div>
+
       </div>
     )
   }
