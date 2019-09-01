@@ -124,7 +124,9 @@
 }
 
 #contactForm {
-  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #contactPhotoContainer {
@@ -137,17 +139,17 @@
 
 #contactName {
   font-size: 20px;
-  padding-bottom: 200px;
+  padding-bottom: 1.5em;
 }
 
 #contactEmail {
   font-size: 20px;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 #contactMessage {
   font-size: 20px;
-  padding-bottom: 1em;
+  padding-bottom: 1.5em;
 }
 
 #contactSubmit {
@@ -199,7 +201,7 @@
 #careerFormLeftSide {
   display: flex;
   flex-direction: column;
-  padding-right: 40px;
+  padding-right: 10px;
 }
 
 #careerName {
@@ -220,10 +222,7 @@
 #careerFormRightSide {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-left: 40px;
-  width: 500px;
+  padding-left: 100px;
 }
 
 #careerResume {
@@ -237,8 +236,8 @@
 }
 
 #careerSubmit {
-  width: 55px;
-  font-size: 15px;
+  width: 320px;
+  font-size: 20px;
   bottom: 10px;
 }
 /* ------------------------------------------------------------------------- */

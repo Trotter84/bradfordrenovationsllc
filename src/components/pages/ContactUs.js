@@ -22,21 +22,13 @@ class ContactUs extends Component {
 
         <div id='contactUsSubContainer'>
 
-          <div id='contactForm'>
-            <form name="bradfordContact" method="POST" data-netlify="true">
+          <div>
+            <form id='contactForm' name="bradfordContact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />
-              <p>
                 <label id="contactName">Your Name: <input type="text" name="name" /></label>
-              </p>
-              <p>
                 <label id="contactEmail">Your Email: <input type="email" name="email" /></label>
-              </p>
-              <p>
                 <label id="contactMessage">Message: <textarea name="message"></textarea></label>
-              </p>
-              <p>
                 <button type="submit" id="contactSubmit">Send</button>
-              </p>
             </form>
           </div>
 
