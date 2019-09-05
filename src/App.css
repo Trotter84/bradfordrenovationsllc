@@ -42,7 +42,8 @@
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: 3.25em;
+  margin-top: 5em;
+  margin-bottom: 7em;
 }
 
 #carouselSubContainer {
@@ -146,7 +147,7 @@
 }
 
 #aboutUsPhotoContainer {
-  padding-top: 4em;
+  padding-top: 5em;
   display: flex;
   justify-content: center;
   z-index: 2;
@@ -190,8 +191,8 @@
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: 5.25em;
-  margin-bottom: 20em;
+  margin-top: 5em;
+  margin-bottom: 22em;
 }
 
 #contactUsSubContainer {
@@ -251,7 +252,7 @@
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: 5.25em;
+  margin-top: 5em;
   margin-bottom: 22em;
 }
 
