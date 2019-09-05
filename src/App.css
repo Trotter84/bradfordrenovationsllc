@@ -130,7 +130,6 @@
   right: 0px;
 
 }
-
 /* ------------------------------------------------------------------------- */
 
 /* ----------------------------- About Us Page ----------------------------- */
@@ -138,34 +137,47 @@
   display: block;
   overflow: auto;
   background-color: white;
-  box-shadow: 2px 3px 3px rgb(107, 107, 107, 0.8);
+  box-shadow: 5px 6px 10px rgb(0, 0, 0, 0.8);
   width: 80%;
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: 5.25em;
+  top: -5.25em;
 }
 
 #aboutUsPhotoContainer {
+  padding-top: 4em;
   display: flex;
   justify-content: center;
   z-index: 2;
   position: sticky;
-
 }
 
 #aboutUsPhoto {
   max-height: 300px;
-  box-shadow: 2px 3px 3px rgb(107, 107, 107, 0.8);
+  box-shadow: 2px 3px 3px rgb(0, 0, 0, 0.8);
   width: 20em;
   border-style: solid;
-  border-width: 0.1em;
-  border-color: grey;
+  border-width: 0.3em;
+  border-color: black;
 }
 
 #aboutUsWhiteContainer {
-
+  display: inline-block;
+  width: 95%;
+  height: 500px;
 }
+
+
+#aboutmeText {
+  display: inline-block;
+  text-align: left;
+  max-width: 100%;
+  font-size: 20px;
+  position: relative;
+  top: 4.25em;
+}
+
 /* ------------------------------------------------------------------------- */
 
 /* ---------------------------- Contact Us Page ---------------------------- */
