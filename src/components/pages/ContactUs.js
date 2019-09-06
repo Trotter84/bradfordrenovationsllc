@@ -16,8 +16,8 @@ class ContactUs extends Component {
           <textarea name="message"></textarea>
         </form>
 
-        <div id='contactUsTitle'>
-          <h2>We&apos;d love to talk to you about how we can help you make your house into your dream home!</h2>
+        <div>
+          <h2 id='contactUsTitle'>We&apos;d love to talk to you about how we can help you make your house into your dream home!</h2>
         </div>
 
         <div id='contactUsSubContainer'>
@@ -27,7 +27,7 @@ class ContactUs extends Component {
             <input type="hidden" name="form-name" value="contact" />
                 <label id="contactName">Name: <input type="text" name="name" /></label>
                 <label id="contactEmail">Email: <input type="email" name="email" /></label>
-                <label id="careerPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
+                <label id="contactPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
                 <label id="contactMessage">Message: <textarea name="message"></textarea></label>
                 <button type="submit" id="contactSubmit">Send</button>
             </form>
