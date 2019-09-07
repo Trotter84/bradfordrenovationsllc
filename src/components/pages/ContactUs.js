@@ -16,7 +16,7 @@ class ContactUs extends Component {
           <textarea name="message"></textarea>
         </form>
 
-        <div>
+        <div id='contactTitleContainer'>
           <h2 id='contactUsTitle'>We&apos;d love to talk to you about how we can help you make your house into your dream home!</h2>
         </div>
 

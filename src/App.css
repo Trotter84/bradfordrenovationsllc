@@ -461,7 +461,7 @@
 /* ---------------------------- Contact Us Page ---------------------------- */
 #contactUsContainer {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   justify-content: center;
   background-color: white;
   width: 90%;
@@ -479,11 +479,12 @@
 }
 
 #contactForm {
-padding-bottom: 50px;
+padding-bottom: 10px;
 }
 
 #contactTitleContainer {
   display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
@@ -492,7 +493,7 @@ padding-bottom: 50px;
   justify-content: center;
   font-size: 15px;
   padding-top: 2em;
-  max-width: 60%;
+  max-width: 85%;
 }
 
 #contactPhotoContainer {
@@ -500,31 +501,32 @@ padding-bottom: 50px;
 }
 
 #contactPhoto {
-  max-height: 400px;
+  max-height: 200px;
 }
 
 #contactName {
-  font-size: 10px;
+  font-size: 15px;
   padding-bottom: 0.5em;
 }
 
 #contactEmail {
-  font-size: 10px;
+  font-size: 15px;
   padding-bottom: 0.5em;
 }
 
 #contactPhone {
-  font-size: 10px;
+  font-size: 15px;
   padding-bottom: 0.5em;
 }
 
 #contactMessage {
-  font-size: 10px;
+  font-size: 15px;
   padding-bottom: 0.5em;
 }
 
 #contactSubmit {
-  font-size: 10px;
+
+  font-size: 15px;
 }
 /* ------------------------------------------------------------------------- */
 
