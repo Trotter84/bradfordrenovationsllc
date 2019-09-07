@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 1000px;
+  width: 100%;
 }
 /* -------------------------------- TopMenu -------------------------------- */
 #menuContainer {
@@ -192,7 +193,6 @@
   z-index: 1;
   position: relative;
   margin-top: 5em;
-  margin-bottom: 22em;
 }
 
 #contactUsSubContainer {
@@ -532,6 +532,86 @@ padding-bottom: 10px;
 /* ------------------------------------------------------------------------- */
 
 /* -------------------------------- Career -------------------------------- */
+#careerContainer {
+  display: block;
+  background-color: white;
+  box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
+  width: 90%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  margin-top: 5em;
+  margin-bottom: 22em;
+}
+
+#careerTitleContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#careerTitle {
+  font-size: 20px;
+}
+
+#careerSubContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+
+#careerForm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+#careerPhotoContainer {
+}
+
+#careerPhoto {
+  max-height: 400px;
+}
+
+#careerFormLeftSide {
+
+}
+
+#careerName {
+  font-size: 15px;
+  padding-bottom: 0.5em;
+}
+
+#careerEmail {
+  font-size: 15px;
+  padding-bottom: 0.5em;
+}
+
+#careerPhone {
+  font-size: 15px;
+  padding-bottom: 0.5em;
+}
+
+#careerFormRightSide {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+#careerResume {
+  font-size: 15px;
+  padding-bottom: 0.5em;
+}
+
+#careerMessage {
+  font-size: 15px;
+  padding-bottom: 0.5em;
+}
+
+#careerSubmit {
+  max-width: 200px;
+  font-size: 15px;
+  bottom: 10px;
+}
 
 /* ------------------------------------------------------------------------- */
 

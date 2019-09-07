@@ -7,8 +7,8 @@ class Careers extends Component {
     return(
       <div id='careerContainer'>
 
-        <div id='careerTitle'>
-          <h2>Join our team!</h2>
+        <div id='careerTitleContainer'>
+          <h2 id='careerTitle'>Join our team!</h2>
         </div>
 
         <div id='careerSubContainer'>
