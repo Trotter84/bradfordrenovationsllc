@@ -425,7 +425,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 100%;
-  height: 700px;
+  height: 750px;
 }
 /* -------------------------------- TopMenu -------------------------------- */
 #menuContainer {
@@ -437,14 +437,14 @@
   color: #d89961;
   font-size: 25px;
   padding-left: 0.5em;
-  max-height: auto;
-  max-width: 200px;
+  max-height: 80px;
+  max-width: 250px;
 }
 
 #topMenuTextContainer {
   display: flex;
   flex-direction: column-reverse;
-  padding-right: 1em;
+  padding-right: 1.5em;
 }
 
 .topMenuText {
