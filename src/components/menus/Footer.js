@@ -25,7 +25,7 @@ class Footer extends Component {
         <Link to={`/`}>
           <Title id='footerTitle'>Bradford Renovations LLC</Title>
         </Link>
-        <NavLink>
+        <NavLink id='footerNavContainer'>
           <Nav to={'/careers'} className='footerText'>Careers</Nav>
           <Nav to={'/contact-us'} className='footerText'>Contact Us</Nav>
           <Nav to={'/about-us'} className='footerText'>About Us</Nav>

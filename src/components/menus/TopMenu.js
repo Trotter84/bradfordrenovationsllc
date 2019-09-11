@@ -28,7 +28,7 @@ class TopMenu extends Component {
         <Link to={`/`}>
           <Title id='topMenuTitle'>Bradford Renovations LLC</Title>
         </Link>
-        <NavLink>
+        <NavLink id='topMenuTextContainer'>
           <Nav to={'/contact-us'} className='topMenuText'>Contact Us</Nav>
           <Nav to={'/about-us'} className='topMenuText'>About Us</Nav>
           <Nav exact to={'/'} className='topMenuText'>Home</Nav>
