@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Image } from 'semantic-ui-react';
+import NetlifyForm from 'react-netlify-form'
 
 import SidePhoto from '../../images/diningRoom.jpg'
 
@@ -21,7 +22,7 @@ class ContactUs extends Component {
         </div>
 
         <div id='contactUsSubContainer'>
-
+        
           <div>
             <form id='contactForm' name="bradfordContact" method="POST" data-netlify="true">
             <input type="hidden" name="form-name" value="contact" />

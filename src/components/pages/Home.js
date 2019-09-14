@@ -3,7 +3,7 @@ import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import JeffsDen from '../../images/jeffsDen.jpg'
-import JeffsDen2 from '../../images/jeffsDen2.jpg'
+import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg'
 import BathroomTub from '../../images/bathroomTub.jpg'
 
 
@@ -16,10 +16,10 @@ class Home extends Component {
           <div id='carouselSubContainer'>
             <Carousel id='homePhotoContainer' autoPlay interval={4000} showThumbs={false} infiniteLoop>
                 <div className='frontPagePhoto1'>
-                  <img src={JeffsDen} className='frontPageImage' alt='Living room with new flooring' />
+                  <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring' />
                 </div>
                 <div className='frontPagePhoto2'>
-                  <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring but different angle' />
+                  <img src={JeffsDen} className='frontPageImage' alt='Living room with new flooring but different angle' />
                 </div>
                 <div className='frontPagePhoto3'>
                   <img src={BathroomTub} className='frontPageImage' alt='Bathroom' />

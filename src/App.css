@@ -444,7 +444,9 @@
 #topMenuTextContainer {
   display: flex;
   flex-direction: column-reverse;
-  padding-right: 1.5em;
+  padding-right: 0em;
+  padding-bottom: 0.5em;
+  width: 100px;
 }
 
 .topMenuText {
@@ -455,7 +457,103 @@
 /* ------------------------------------------------------------------------- */
 
 /* ------------------------------- Home Page ------------------------------- */
+#carouselContainer {
+  box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
+  background-color: white;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  margin-top: 5em;
+  margin-bottom: 7em;
+}
 
+#carouselSubContainer {
+  align-items: center;
+  padding: 10px;
+}
+
+#homePhotoContainer {
+
+}
+
+.frontPagePhoto1 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #303030;
+}
+
+.frontPagePhoto2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #303030;
+}
+
+.frontPagePhoto3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #303030;
+}
+
+.frontPageImage {
+  max-width: 1000px;
+}
+
+#whiteTextArea {
+  background-color: white;
+  margin-top: 150px;
+  height: 250px;
+}
+
+#carouselContainer2 {
+  box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
+  background-color: white;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  top: 3.25em;
+}
+
+#carouselSubContainer2 {
+  align-items: center;
+  padding: 30px;
+}
+
+#homePhotoContainer2 {
+  position: relative;
+}
+
+.frontBottomPagePhoto1 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #303030;
+}
+
+.frontBottomPagePhoto2 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #303030;
+}
+
+.frontBottomPagePhoto3 {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #303030;
+}
+
+.homeBottomPhotoText {
+  position: absolute;
+  background-color: rgb(0, 0, 0, 0.7);
+  background-size: 200px 200px;
+  font-size: 15px;
+  color: white;
+  bottom: 0px;
+  right: 0px;
+
+}
 /* ------------------------------------------------------------------------- */
 
 /* ----------------------------- About Us Page ----------------------------- */
