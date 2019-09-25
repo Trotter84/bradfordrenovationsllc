@@ -628,6 +628,8 @@
 }
 
 #contactForm {
+  display: flex;
+  align-items: center;
   padding-bottom: 10px;
 }
 
@@ -674,7 +676,7 @@
 }
 
 #contactSubmit {
-
+  max-width: 200px;
   font-size: 15px;
 }
 /* ------------------------------------------------------------------------- */
