@@ -225,21 +225,27 @@
 #contactName {
   font-size: 20px;
   padding-bottom: 1.5em;
+  min-width: 325px;
 }
 
 #contactEmail {
   font-size: 20px;
   padding-bottom: 1.5em;
+  min-width: 325px;
 }
 
 #contactPhone {
   font-size: 20px;
   padding-bottom: 1.5em;
+  min-width: 325px;
 }
 
 #contactMessage {
+  display: flex;
+  align-items: baseline;
   font-size: 20px;
   padding-bottom: 1.5em;
+  min-width: 325px;
 }
 
 #contactSubmit {
@@ -324,6 +330,8 @@
 #careerMessage {
   font-size: 20px;
   padding-bottom: 1.5em;
+  display: flex;
+  align-items: baseline;
 }
 
 #careerSubmit {
