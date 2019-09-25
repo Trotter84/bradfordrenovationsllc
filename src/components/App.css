@@ -566,6 +566,7 @@
 /* ----------------------------- About Us Page ----------------------------- */
 #aboutUsContainer {
   width: 90%;
+  top: -4.5em;
 }
 
 #aboutUsPhotoContainer {
@@ -577,7 +578,6 @@
 }
 
 #aboutUsPhoto {
-  max-height: 100%;
   max-width: 225px;
 }
 
