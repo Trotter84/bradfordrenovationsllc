@@ -367,6 +367,10 @@
 }
 /* ------------------------------------------------------------------------- */
 
+#bottomMenuMainContainer {
+  display: none;
+}
+
 /* ============================================================================ */
 
 
@@ -442,19 +446,26 @@
 #topMenuTitle {
   float: left;
   color: #d89961;
-  font-size: 25px;
-  padding-left: 0.5em;
-  max-height: 80px;
-  max-width: 250px;
+  font-size: 33px;
+  padding-left: 0.3em;
 }
 
+/*
+  font-size: 25px;
+  max-height: 80px;
+  max-width: 250px;
+*/
+
 #topMenuTextContainer {
-  display: flex;
+  display: none;
+}
+
+/*
   flex-direction: column-reverse;
   padding-right: 0em;
   padding-bottom: 0.5em;
   width: 100px;
-}
+*/
 
 .topMenuText {
   float: none;
@@ -753,7 +764,7 @@
 
 /* -------------------------------- Footer -------------------------------- */
 #footerContainer {
-
+  display: none;
 }
 
 #footerTitle {
@@ -779,5 +790,44 @@
 }
 /* ------------------------------------------------------------------------- */
 
+/* ---------------------------- BottomMenuMobile ---------------------------- */
+#bottomMenuMainContainer {
+  background-color: white;
+  box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+  height: 50px;
+  width: 100%;
+}
+
+.iconContainers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  width: 33%;
+}
+
+.icons {
+  color: black;
+}
+
+.bottomMenuText {
+  font-size: 14px;
+  margin-left: -7px;
+}
+
+.vl {
+  height: 100%;
+  border-left: 1px solid;
+  color: #7c7c7c;
+}
+/* ------------------------------------------------------------------------- */
 }
 /* ============================================================================ */

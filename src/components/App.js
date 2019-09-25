@@ -15,6 +15,7 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Careers from './pages/Careers';
 import Footer from './menus/Footer';
+import BottomMenuMobile from './menus/BottomMenuMobile';
 
 
 class App extends Component {
@@ -42,6 +43,7 @@ class App extends Component {
                 <Route path='/careers' component={Careers} />
                 <Redirect to='/' />
               </Switch>
+              <BottomMenuMobile />
             </div>
             <Footer />
           </WindowScroller>
