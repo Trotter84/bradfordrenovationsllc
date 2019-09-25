@@ -1,6 +1,6 @@
 /* ============================== Desktop Version ============================== */
 #mainAppContainer {
-  background-image: url(./images/background_highres.webp);
+  background-image: url(../images/background_highres.webp);
   background-size: cover;
   background-repeat: no-repeat;
   height: 1000px;
@@ -421,7 +421,7 @@
 @media (max-width: 426px) {
 
 #mainAppContainer {
-  background-image: url(./images/kitchen-background.jpg);
+  background-image: url(../images/kitchen-background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 100%;
