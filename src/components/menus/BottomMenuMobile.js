@@ -9,7 +9,6 @@ const Icons = Styled(Icon)`
   &:hover,&.active {
     color: #2b3d4f;
   }
-
 `
 
 
