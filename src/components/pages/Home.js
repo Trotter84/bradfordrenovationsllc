@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import JeffsDen from '../../images/jeffsDen.jpg'
-import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg'
-import BathroomTub from '../../images/bathroomTub.jpg'
+import JeffsDen from '../../images/jeffsDen.jpg';
+import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg';
+import Kitchen from '../../images/kitchenBackgroundFULL.jpg';
+import BathroomTub from '../../images/bathroomTub.jpg';
 
 
 class Home extends Component {
@@ -19,7 +20,7 @@ class Home extends Component {
                   <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring' />
                 </div>
                 <div className='frontPagePhoto2'>
-                  <img src={JeffsDen} className='frontPageImage' alt='Living room with new flooring but different angle' />
+                  <img src={Kitchen} className='frontPageImage' alt='Kitchen' />
                 </div>
                 <div className='frontPagePhoto3'>
                   <img src={BathroomTub} className='frontPageImage' alt='Bathroom' />

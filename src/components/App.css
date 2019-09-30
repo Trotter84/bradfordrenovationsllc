@@ -53,6 +53,7 @@
 #carouselSubContainer {
   align-items: center;
   padding: 30px;
+  max-width: 100%;
 }
 
 #homePhotoContainer {
