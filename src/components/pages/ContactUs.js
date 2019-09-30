@@ -11,13 +11,6 @@ class ContactUs extends Component {
     return(
       <div id='contactUsContainer'>
 
-        <form name="bradfordContact" data-netlify >
-          <input type="text" name="name" />
-          <input type="email" name="email" />
-          <input type="tel" name="phone" />
-          <textarea name="message"></textarea>
-          <button type="submit">submit</button>
-        </form>
 
         <div id='contactTitleContainer'>
           <h2 id='contactUsTitle'>You want a dream home. We want to help you create it!</h2>
@@ -25,7 +18,31 @@ class ContactUs extends Component {
 
         <div id='contactUsSubContainer'>
 
-
+          <NetlifyForm name="bradfordContact" method="POST" data-netlify="true">
+            {({ loading, error, success }) => (
+              <div>
+                {loading &&
+                  <div>Loading...</div>
+                }
+                {error &&
+                  <div>Your information was not sent. Please try again later.</div>
+                }
+                {success &&
+                  <div>Thank you for contacting us!</div>
+                }
+                {!loading && !success &&
+                  <div id='contactForm'>
+                      <input type="hidden" name="form-name" value="contact" />
+                      <label id="contactName">Name: <input type="text" name="name" /></label>
+                      <label id="contactEmail">Email: <input type="email" name="email" /></label>
+                      <label id="contactPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
+                      <label id="contactMessage">Message: <textarea name="message"></textarea></label>
+                      <button type="submit" id="contactSubmit">Send</button>
+                  </div>
+                }
+              </div>
+            )}
+          </NetlifyForm>
 
 
           <div id="contactPhotoContainer">
