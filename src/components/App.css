@@ -803,8 +803,9 @@
   box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
   display: flex;
   flex-direction: row;
+  justify-content: center;
   text-align: center;
-  align-items: center;
+  align-items: stretch;
   position: fixed;
   bottom: 0;
   z-index: 5;
@@ -814,11 +815,16 @@
 
 .iconContainers {
   display: flex;
+  flex: 1 1 0;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: -10px;
-  width: 25%;
+  padding-bottom: 13px;
+}
+
+.iconContainers:not(:last-child) {
+  height: 100%;
+  border-right: 1px solid #c6c6c6;
 }
 
 .icons {
@@ -826,14 +832,13 @@
 }
 
 .bottomMenuText {
+  align-items: center;
+  text-align: center;
   font-size: 14px;
-  margin-left: -5px;
-}
-
-.vl {
-  height: 100%;
-  border-left: 1px solid;
-  color: #7c7c7c;
+  font-weight: bold;
+  text-decoration: uppercase;
+  width: 70px;
+  margin-left: -22px;
 }
 /* ------------------------------------------------------------------------- */
 }
