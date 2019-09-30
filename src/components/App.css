@@ -87,6 +87,11 @@
   height: 250px;
 }
 
+#bottomBackground {
+  background-image: url(../images/kitchen_for_bottom_of_page.jpg);
+  background-size: cover;
+}
+
 #carouselContainer2 {
   box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
   background-color: white;
@@ -96,6 +101,7 @@
   z-index: 1;
   position: relative;
   top: 3.25em;
+  margin-bottom: 6.25em;
 }
 
 #carouselSubContainer2 {
@@ -129,7 +135,7 @@
   position: absolute;
   background-color: rgb(0, 0, 0, 0.7);
   background-size: 200px 200px;
-  font-size: 15px;
+  font-size: 25px;
   color: white;
   bottom: 0px;
   right: 0px;
@@ -715,11 +721,13 @@
 #careerForm {
   display: flex;
   flex-direction: column;
+  float: left;
   padding: 10px;
   width: 80%;
 }
 
 #careerPhotoContainer {
+
 }
 
 #careerPhoto {
@@ -762,6 +770,7 @@
 }
 
 #careerSubmit {
+  margin-right: 40px;
   max-width: 200px;
   font-size: 15px;
   bottom: 10px;
