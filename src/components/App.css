@@ -1,8 +1,7 @@
 /* ============================== Desktop Version ============================== */
 #mainAppContainer {
-  background-image: url(../images/background_highres.webp);
+  background: url(../images/background_highres.webp) no-repeat center;
   background-size: cover;
-  background-repeat: no-repeat;
   height: 1000px;
   width: 100%;
 }
@@ -35,6 +34,10 @@
 /* ------------------------------------------------------------------------- */
 
 /* ------------------------------- Home Page ------------------------------- */
+#homeMainContainer {
+
+}
+
 #carouselContainer {
   box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
   background-color: white;

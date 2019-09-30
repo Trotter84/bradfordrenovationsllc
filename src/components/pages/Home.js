@@ -11,7 +11,7 @@ class Home extends Component {
 
   render() {
     return(
-      <div>
+      <div id='homeMainContainer'>
         <div id='carouselContainer'>
           <div id='carouselSubContainer'>
             <Carousel id='homePhotoContainer' autoPlay interval={4000} showThumbs={false} infiniteLoop>
