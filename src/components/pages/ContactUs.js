@@ -18,7 +18,7 @@ class ContactUs extends Component {
 
         <div id='contactUsSubContainer'>
 
-          <NetlifyForm name="bradfordContact" method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <NetlifyForm name="bradfordContact" method="POST" data-netlify="true">
             {({ loading, error, success }) => (
               <div>
                 {loading &&
