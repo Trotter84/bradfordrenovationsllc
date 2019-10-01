@@ -34,5 +34,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+
+    <form name="bradfordCareer" method="POST" data-netlify="true" hidden>
+      <label id="careerName">Name: <input type="text" name="name" required /></label>
+      <label id="careerEmail">Email: <input type="email" name="email" required /></label>
+      <label id="careerPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
+      <label id="careerResume">Resume: <input type="file" name="resume" /></label>
+      <label id="careerMessage">Message: <textarea name="message"></textarea></label>
+      <button type="submit" id="careerSubmit">Send</button>
+    </form>
+
   </body>
 </html>

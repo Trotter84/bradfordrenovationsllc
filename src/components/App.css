@@ -91,13 +91,14 @@
 #bottomBackground {
   background-image: url(../images/kitchen_for_bottom_of_page.jpg);
   background-size: cover;
+  height: 1000px;
 }
 
 #carouselContainer2 {
   box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
   background-color: white;
   width: 60%;
-  height: 100%;
+
   margin: 0 auto;
   z-index: 1;
   position: relative;
