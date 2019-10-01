@@ -32,7 +32,6 @@ class ContactUs extends Component {
                 }
                 {!loading && !success &&
                   <div id='contactForm'>
-                      <input type="hidden" name="form-name" value="contact" />
                       <label id="contactName">Name: <input type="text" name="name" /></label>
                       <label id="contactEmail">Email: <input type="email" name="email" /></label>
                       <label id="contactPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
