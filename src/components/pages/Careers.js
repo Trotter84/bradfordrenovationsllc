@@ -13,7 +13,7 @@ class Careers extends Component {
         </div>
         <div id='careerSubContainer'>
 
-          <NetlifyForm name="bradfordCareer" method="POST" data-netlify="true">
+          <NetlifyForm name="bradfordCareer" method="POST" data-netlify="true" data-netlify-recaptcha="true">
             {({ loading, error, success }) => (
               <div>
                 {loading &&
