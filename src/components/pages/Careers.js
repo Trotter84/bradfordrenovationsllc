@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Icon } from 'semantic-ui-react';
 import NetlifyForm from 'react-netlify-form'
 
 
@@ -13,17 +14,17 @@ class Careers extends Component {
         </div>
         <div id='careerSubContainer'>
 
-          <NetlifyForm name="Career" method="POST" data-netlify="true">
+          <NetlifyForm id='careersForm' name="Career" method="POST" data-netlify="true">
             {({ loading, error, success }) => (
-              <div>
+              <div id='careersFieldContainer'>
                 {loading &&
-                  <div>Loading...</div>
+                  <div id='careersFieldLoading'>Loading <Icon loading name='spinner' /></div>
                 }
                 {error &&
-                  <div>Your information was not sent. Please try again later.</div>
+                  <div id='careersFieldError'>Your information was not sent. Please try again later.</div>
                 }
                 {success &&
-                  <div>Thank you for contacting us!</div>
+                  <div id='careersFieldSuccess'>Thank you for contacting us!</div>
                 }
                 {!loading && !success &&
                   <div id='careerForm'>
