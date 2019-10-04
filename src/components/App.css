@@ -275,25 +275,25 @@
 
 }
 
-#contactName {
+.contactName {
   font-size: 20px;
   padding-bottom: 1.5em;
   min-width: 325px;
 }
 
-#contactEmail {
+.contactEmail {
   font-size: 20px;
   padding-bottom: 1.5em;
   min-width: 325px;
 }
 
-#contactPhone {
+.contactPhone {
   font-size: 20px;
   padding-bottom: 1.5em;
   min-width: 325px;
 }
 
-#contactMessage {
+.contactMessage {
   display: flex;
   align-items: baseline;
   font-size: 20px;
@@ -728,11 +728,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: white;
   width: 90%;
   margin: 0 auto;
-  z-index: 1;
-  position: relative;
   top: 5.25em;
   margin-bottom: 0em;
 }
@@ -804,29 +801,60 @@
   display: flex;
   flex-direction: column;
   width: 90%;
-  max-width: 270px;
+  max-width: 250px;
+}
+
+#contactNameContainer {
+  font-size: 15px;
+  padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: row;
 }
 
 #contactName {
+  min-width: 100px;
+  max-width: 210px;
+}
+
+
+#contactEmailContainer {
   font-size: 15px;
   padding-bottom: 0.5em;
-  max-width: 270px;
+  display: flex;
+  flex-direction: row;
 }
 
 #contactEmail {
+  min-width: 100px;
+  max-width: 210px;
+}
+
+
+#contactPhoneContainer {
   font-size: 15px;
   padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: row;
 }
 
 #contactPhone {
+  min-width: 100px;
+  max-width: 210px;
+}
+
+
+#contactMessageContainer {
   font-size: 15px;
   padding-bottom: 0.5em;
+  display: flex;
+  flex-direction: row;
 }
 
 #contactMessage {
-  font-size: 15px;
-  padding-bottom: 0.5em;
+  min-width: 100px;
+  max-width: 210px;
 }
+
 
 #contactSubmit {
   max-width: 200px;
@@ -835,6 +863,7 @@
 
 #contactFieldContainer {
   width: 100%;
+  max-width: 250px;
 }
 
 #contactFieldLoading {
