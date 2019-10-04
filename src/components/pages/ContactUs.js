@@ -32,10 +32,10 @@ class ContactUs extends Component {
                 }
                 {!loading && !success &&
                   <div id='contactFormContainer'>
-                      <label id="contactName">Name: <input type="text" name="name" /></label>
-                      <label id="contactEmail">Email: <input type="email" name="email" /></label>
-                      <label id="contactPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
-                      <label id="contactMessage">Message: <textarea name="message"></textarea></label>
+                      <label id="contactNameContainer">Name: <input id="contactName" type="text" name="name" /></label>
+                      <label id="contactEmailContainer">Email: <input id="contactEmail" type="email" name="email" /></label>
+                      <label id="contactPhoneContainer">Phone: <input id="contactPhone" type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
+                      <label id="contactMessageContainer">Message: <textarea id="contactMessage" name="message"></textarea></label>
                       <button type="submit" id="contactSubmit">Send</button>
                   </div>
                 }
