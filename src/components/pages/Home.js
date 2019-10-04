@@ -28,9 +28,7 @@ class Home extends Component {
             </Carousel>
           </div>
         </div>
-        <div id='blackDividerArea'>
-          <h4>Text here</h4>
-        </div>
+        <div id='blackDividerArea'></div>
         <div id='bottomBackground'>
           <div id='carouselContainer2'>
             <div id='carouselSubContainer2'>

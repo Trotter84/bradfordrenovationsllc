@@ -385,16 +385,28 @@
 }
 
 #careerName {
+
+}
+
+#careerNameContainer {
   font-size: 20px;
   padding-bottom: 1.5em;
 }
 
 #careerEmail {
+
+}
+
+#careerEmailContainer {
   font-size: 20px;
   padding-bottom: 1.5em;
 }
 
 #careerPhone {
+
+}
+
+#careerPhoneContainer {
   font-size: 20px;
   padding-bottom: 1.5em;
 }
@@ -406,11 +418,19 @@
 }
 
 #careerResume {
+
+}
+
+#careerResumeContainer {
   font-size: 20px;
   padding-bottom: 1.5em;
 }
 
 #careerMessage {
+
+}
+
+#careerMessageContainer {
   font-size: 20px;
   padding-bottom: 1.5em;
   display: flex;
@@ -632,12 +652,14 @@
 }
 
 #blackDividerArea {
+  display: none;
   background-color: black;
   margin-top: 140px;
-  height: 20px;
+  height: 10px;
 }
 
 #bottomBackground {
+  display: none;
   background-size: cover;
   height: 600px;
 }
@@ -649,7 +671,7 @@
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: 10.25em;
+  top: -20em;
 }
 
 #carouselSubContainer2 {
@@ -933,24 +955,49 @@
 }
 
 #careersForm {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #careerFormLeftSide {
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #careerName {
+  width: 100%;
+  max-width: 250px;
+}
+
+#careerNameContainer {
+  display: flex;
+  flex-direction: row;
   font-size: 15px;
   padding-bottom: 0.5em;
 }
 
 #careerEmail {
+  width: 100%;
+  max-width: 250px;
+}
+
+#careerEmailContainer {
+  display: flex;
+  flex-direction: row;
   font-size: 15px;
   padding-bottom: 0.5em;
 }
 
 #careerPhone {
+  width: 100%;
+  max-width: 250px;
+}
+
+#careerPhoneContainer {
+  display: flex;
+  flex-direction: row;
   font-size: 15px;
   padding-bottom: 0.5em;
 }
@@ -962,11 +1009,25 @@
 }
 
 #careerResume {
+  width: 100%;
+  max-width: 250px;
+}
+
+#careerResumeContainer {
+  display: flex;
+  flex-direction: column;
   font-size: 15px;
   padding-bottom: 0.5em;
 }
 
 #careerMessage {
+  width: 100%;
+  max-width: 250px;
+}
+
+#careerMessageContainer {
+  display: flex;
+  flex-direction: row;
   font-size: 15px;
   padding-bottom: 0.5em;
 }
@@ -979,7 +1040,10 @@
 }
 
 #careersFieldContainer {
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 250px;
 }
 
 #careersFieldLoading {

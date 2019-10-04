@@ -29,13 +29,13 @@ class Careers extends Component {
                 {!loading && !success &&
                   <div id='careerForm'>
                   <div id='careerFormLeftSide'>
-                      <label id="careerName">Name: <input type="text" name="name" required /></label>
-                      <label id="careerEmail">Email: <input type="email" name="email" required /></label>
-                      <label id="careerPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
+                      <label id="careerNameContainer">Name: <input id="careerName" type="text" name="name" required /></label>
+                      <label id="careerEmailContainer">Email: <input id="careerEmail" type="email" name="email" required /></label>
+                      <label id="careerPhoneContainer">Phone: <input id="careerPhone" type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
                   </div>
                   <div id='careerFormRightSide'>
-                    <label id="careerResume">Resume: <input type="file" name="resume" /></label>
-                    <label id="careerMessage">Message: <textarea name="message"></textarea></label>
+                    <label id="careerResumeContainer">Resume: <input id="careerResume" type="file" name="resume" /></label>
+                    <label id="careerMessageContainer">Message: <textarea id="careerMessage" name="message"></textarea></label>
                     <button type="submit" id="careerSubmit">Send</button>
                   </div>
 
