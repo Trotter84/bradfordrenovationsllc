@@ -50,7 +50,7 @@ class ContactUs extends Component {
                 <a id='contactUsPhone' href="tel:7247120565">(724) 712-0565</a>
               </p>
               <p  id='contactUsEmailContainer'>Email: &nbsp;
-                <a id='contactUsEmail' href="mailto:bradforddrew55@gmail.com" target='_blank'>bradforddrew55@gmail.com</a>
+                <a id='contactUsEmail' href="mailto:bradforddrew55@gmail.com" target='_blank' rel="noopener noreferrer">bradforddrew55@gmail.com</a>
               </p>
             </div>
           </div>
