@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image } from 'semantic-ui-react';
+import { Image, Icon } from 'semantic-ui-react';
 import NetlifyForm from 'react-netlify-form'
 
 import SidePhoto from '../../images/diningRoom.jpg'
@@ -18,20 +18,20 @@ class ContactUs extends Component {
 
         <div id='contactUsSubContainer'>
 
-          <NetlifyForm name="Contact" method="POST" data-netlify="true">
+          <NetlifyForm id='contactForm' name="Contact" method="POST" data-netlify="true">
             {({ loading, error, success }) => (
-              <div>
+              <div id='contactFieldContainer'>
                 {loading &&
-                  <div>Loading...</div>
+                  <div id='contactFieldLoading'>Loading <Icon loading name='spinner' /></div>
                 }
                 {error &&
-                  <div>Your information was not sent. Please try again later.</div>
+                  <div id='contactFieldError'>Your information was not sent. Please try again later.</div>
                 }
                 {success &&
-                  <div>Thank you for contacting us!</div>
+                  <div id='contactFieldSuccess'>Thank you for contacting us!</div>
                 }
                 {!loading && !success &&
-                  <div id='contactForm'>
+                  <div id='contactFormContainer'>
                       <label id="contactName">Name: <input type="text" name="name" /></label>
                       <label id="contactEmail">Email: <input type="email" name="email" /></label>
                       <label id="contactPhone">Phone: <input type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
@@ -43,9 +43,16 @@ class ContactUs extends Component {
             )}
           </NetlifyForm>
 
-
-          <div id="contactPhotoContainer">
-            <Image id="contactPhoto" src={SidePhoto} />
+          <div id="contactUsPhotoContainer">
+            <Image id="contactUsPhoto" src={SidePhoto} />
+            <div id='contactUsBasicInfoContainer'>
+              <p id='contactUsPhoneContainer'>Phone: &nbsp;
+                <a id='contactUsPhone' href="tel:7247120565">(724) 712-0565</a>
+              </p>
+              <p  id='contactUsEmailContainer'>Email: &nbsp;
+                <a id='contactUsEmail' href="mailto:bradforddrew55@gmail.com" target='_blank'>bradforddrew55@gmail.com</a>
+              </p>
+            </div>
           </div>
 
         </div>
