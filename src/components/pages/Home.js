@@ -28,7 +28,7 @@ class Home extends Component {
             </Carousel>
           </div>
         </div>
-        <div id='whiteTextArea'>
+        <div id='blackDividerArea'>
           <h4>Text here</h4>
         </div>
         <div id='bottomBackground'>
@@ -51,7 +51,6 @@ class Home extends Component {
             </div>
           </div>
         </div>
-
       </div>
     )
   }
