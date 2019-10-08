@@ -6,6 +6,9 @@ import JeffsDen from '../../images/jeffsDen.jpg';
 import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg';
 import Kitchen from '../../images/kitchenBackgroundFULL.jpg';
 import BathroomTub from '../../images/bathroomTub.jpg';
+import BathroomFromDoor from '../../images/IMG_8319.jpg';
+import BathroomMirror from '../../images/IMG_8307.jpg';
+import BathroomShower from '../../images/IMG_8311.jpg';
 
 
 class Home extends Component {
@@ -34,15 +37,15 @@ class Home extends Component {
             <div id='carouselSubContainer2'>
               <Carousel id='homePhotoContainer2' autoPlay interval={4000} showThumbs={false} infiniteLoop>
                   <div className='frontBottomPagePhoto'>
-                    <img src={JeffsDen} className='frontPageImage' alt='Living room with new flooring' />
-                    <p className='homeBottomPhotoText'>Den angle 1</p>
+                    <img src={BathroomMirror} className='frontPageImage' alt='Bathroom facing mirror' />
+                    <p className='homeBottomPhotoText'>Bathroom</p>
                   </div>
                   <div className='frontBottomPagePhoto2'>
-                    <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring but different angle' />
-                    <p className='homeBottomPhotoText'>Den angle 2</p>
+                    <img src={BathroomFromDoor} className='frontPageImage' alt='Bathroom from door angle' />
+                    <p className='homeBottomPhotoText'>Bathroom</p>
                   </div>
                   <div className='frontBottomPagePhoto3'>
-                    <img src={BathroomTub} className='frontPageImage' alt='Bathroom' />
+                    <img src={BathroomShower} className='frontPageImage' alt='Bathroom shower' />
                     <p className='homeBottomPhotoText'>Bathroom</p>
                   </div>
               </Carousel>
