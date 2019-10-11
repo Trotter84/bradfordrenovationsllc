@@ -9,6 +9,7 @@ import BathroomTub from '../../images/bathroomTub.jpg';
 import BathroomFromDoor from '../../images/IMG_8319.jpg';
 import BathroomMirror from '../../images/IMG_8307.jpg';
 import BathroomShower from '../../images/IMG_8311.jpg';
+import LaundryRoom from '../../images/IMG_8322.jpg';
 
 
 class Home extends Component {
@@ -40,13 +41,17 @@ class Home extends Component {
                     <img src={BathroomMirror} className='frontPageImage' alt='Bathroom facing mirror' />
                     <p className='homeBottomPhotoText'>Bathroom</p>
                   </div>
-                  <div className='frontBottomPagePhoto2'>
+                  <div className='frontBottomPagePhoto'>
                     <img src={BathroomFromDoor} className='frontPageImage' alt='Bathroom from door angle' />
                     <p className='homeBottomPhotoText'>Bathroom</p>
                   </div>
-                  <div className='frontBottomPagePhoto3'>
+                  <div className='frontBottomPagePhoto'>
                     <img src={BathroomShower} className='frontPageImage' alt='Bathroom shower' />
                     <p className='homeBottomPhotoText'>Bathroom</p>
+                  </div>
+                  <div className='frontBottomPagePhoto'>
+                    <img src={LaundryRoom} className='frontPageImage' alt='Laundry room' />
+                    <p className='homeBottomPhotoText'>Laundry Room</p>
                   </div>
               </Carousel>
             </div>
