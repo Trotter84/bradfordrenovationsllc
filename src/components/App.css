@@ -116,19 +116,7 @@
   position: relative;
 }
 
-.frontBottomPagePhoto1 {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #303030;
-}
-
-.frontBottomPagePhoto2 {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #303030;
-}
-
-.frontBottomPagePhoto3 {
+.frontBottomPagePhoto {
   border-style: solid;
   border-width: 2px;
   border-color: #303030;
