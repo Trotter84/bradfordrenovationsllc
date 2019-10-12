@@ -101,7 +101,7 @@
 #bottomBackground {
   background-image: url(../images/kitchen_for_bottom_of_page.jpg);
   background-size: cover;
-  height: 1000px;
+  height: 900px;
 }
 
 #blackLayerBottom {
@@ -109,7 +109,7 @@
   position: absolute;
   left: 0;
   width: 100%;
-  height: 1000px;
+  height: 900px;
 }
 
 #carouselContainer2 {
@@ -120,8 +120,7 @@
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: 15.25em;
-  margin-bottom: 6.25em;
+  top: 10.25em;
 }
 
 #carouselSubContainer2 {
