@@ -35,15 +35,17 @@ class App extends Component {
         <Router history={this.history}>
           <WindowScroller>
             <div id='mainAppContainer'>
-              <TopMenu />
-              <Switch>
-                <Route exact path='/' component={Home} />
-                <Route path='/about-us' component={AboutUs} />
-                <Route path='/contact-us' component={ContactUs} />
-                <Route path='/careers' component={Careers} />
-                <Redirect to='/' />
-              </Switch>
-              <BottomMenuMobile />
+              <div id='blackLayer'>
+                <TopMenu />
+                <Switch>
+                  <Route exact path='/' component={Home} />
+                  <Route path='/about-us' component={AboutUs} />
+                  <Route path='/contact-us' component={ContactUs} />
+                  <Route path='/careers' component={Careers} />
+                  <Redirect to='/' />
+                </Switch>
+                <BottomMenuMobile />
+              </div>
             </div>
             <Footer />
           </WindowScroller>
