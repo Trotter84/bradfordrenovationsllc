@@ -10,14 +10,10 @@ class ContactUs extends Component {
   render() {
     return(
       <div id='contactUsContainer'>
-
-
         <div id='contactTitleContainer'>
           <h2 id='contactUsTitle'>You want a dream home. We want to help you create it!</h2>
         </div>
-
         <div id='contactUsSubContainer'>
-
           <NetlifyForm id='contactForm' name="Contact" method="POST" data-netlify="true">
             {({ loading, error, success }) => (
               <div id='contactFieldContainer'>
