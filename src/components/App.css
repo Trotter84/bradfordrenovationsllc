@@ -24,6 +24,7 @@
 }
 
 #topMenuTitle {
+  font-family: 'Roboto Slab', serif;
   float: left;
   color: #CB9D4E;
   font-size: 53px;
@@ -32,6 +33,7 @@
 }
 
 .topMenuText {
+  font-family: 'Roboto Slab', serif;
   display: flex;
   float: right;
   flex-direction: row;
@@ -375,6 +377,7 @@
 }
 
 #careerPhotoContainer {
+
 }
 
 #careerPhoto {
@@ -493,6 +496,7 @@
 }
 
 #footerTitle {
+  font-family: 'Roboto Slab', serif;
   float: left;
   color: white;
   font-size: 22px;
@@ -501,6 +505,7 @@
 }
 
 .footerText {
+  font-family: 'Roboto Slab', serif;
   float: right;
   font-size: 15px;
   color: white;
