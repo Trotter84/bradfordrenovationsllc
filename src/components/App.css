@@ -141,13 +141,14 @@
 }
 
 .homeBottomPhotoText {
+  font-family: 'Roboto Condensed', sans-serif;
   position: absolute;
   background-color: rgb(0, 0, 0, 0.7);
   background-size: 200px 200px;
-  font-size: 25px;
+  font-size: 60px;
   color: white;
-  bottom: 0px;
-  right: 0px;
+  bottom: 20px;
+  left: 2px;
 }
 /* ------------------------------------------------------------------------- */
 
