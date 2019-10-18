@@ -39,7 +39,7 @@ class App extends Component {
                 <TopMenu />
                 <Switch>
                   <Route exact path='/' component={Home} />
-                  <Route path='/about-us' component={AboutUs} />
+                  <Route path='/about' component={AboutUs} />
                   <Route path='/contact-us' component={ContactUs} />
                   <Route path='/careers' component={Careers} />
                   <Redirect to='/' />

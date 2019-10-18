@@ -28,7 +28,7 @@ class Footer extends Component {
         <NavLink id='footerNavContainer'>
           <Nav to={'/careers'} className='footerText'>Careers</Nav>
           <Nav to={'/contact-us'} className='footerText'>Contact Us</Nav>
-          <Nav to={'/about-us'} className='footerText'>About Us</Nav>
+          <Nav to={'/about'} className='footerText'>About</Nav>
           <Nav exact to={'/'} className='footerText'>Home</Nav>
         </NavLink>
       </div>

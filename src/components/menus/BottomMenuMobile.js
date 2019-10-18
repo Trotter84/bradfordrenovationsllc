@@ -22,9 +22,9 @@ class BottomMenuMobile extends Component {
           </Icons>
         </Link>
         <div className='vl' />
-        <Link to={'/about-us'} className='iconContainers'>
+        <Link to={'/about'} className='iconContainers'>
           <Icons className='icons' size='large' name="user">
-            <p className='bottomMenuText'>About Us</p>
+            <p className='bottomMenuText'>About</p>
           </Icons>
         </Link>
         <div className='vl' />
