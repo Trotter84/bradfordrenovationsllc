@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
-import JeffsDen from '../../images/jeffsDen.jpg';
 import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg';
 import Kitchen from '../../images/kitchenBackgroundFULL.jpg';
 import BathroomTub from '../../images/bathroomTub.jpg';
