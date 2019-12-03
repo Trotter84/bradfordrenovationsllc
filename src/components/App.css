@@ -23,12 +23,22 @@
   height: 100px;
 }
 
+#topMenuLogoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#topMenuLogo {
+  max-height: 92px;
+  color: #CB9D4E;
+}
+
 #topMenuTitle {
   font-family: 'Roboto Slab', serif;
   float: left;
-  color: #CB9D4E;
-  font-size: 53px;
-  padding-left: 0.7em;
+  color: #ffffff;
+  font-size: 3.313em;
+  padding-left: 0em;
   text-shadow: 0.5px 0.5px black;
 }
 
@@ -37,7 +47,7 @@
   display: flex;
   float: right;
   flex-direction: row;
-  color: #CB9D4E;
+  color: #ffffff;
   font-size: 32px;
   text-shadow: 0.5px 0.5px black;
   padding-right: 1em;
@@ -519,6 +529,16 @@
   bottom: 0px;
 }
 
+#footerLogoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+#footerLogo {
+  max-height: 42px;
+}
+
 #footerTitle {
   font-family: 'Roboto Slab', serif;
   float: left;
@@ -611,10 +631,21 @@
 }
 /* -------------------------------- TopMenu -------------------------------- */
 #menuContainer {
+  justify-content: center;
+}
 
+#topMenuLogoContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+#topMenuLogo {
+  max-height: 95px;
+  color: #CB9D4E;
 }
 
 #topMenuTitle {
+  display: none;
   float: left;
   color: #d89961;
   font-size: 33px;
