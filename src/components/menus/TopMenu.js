@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import Styled from 'styled-components';
 
+import WhiteLogo from '../../images/BradfordReno-logo-white.png';
+
 
 const Title = Styled.h1`
   transition: all 200ms ease-in-out;
@@ -25,7 +27,8 @@ class TopMenu extends Component {
   render() {
     return(
       <div id='menuContainer'>
-        <Link to={`/`}>
+        <Link to={`/`} id='topMenuLogoContainer'>
+          <img src={WhiteLogo} alt="Bradford Renovations Logo" id='topMenuLogo'></img>
           <Title id='topMenuTitle'>Bradford Renovations LLC</Title>
         </Link>
         <NavLink id='topMenuTextContainer'>
