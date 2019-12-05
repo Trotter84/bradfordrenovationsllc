@@ -33,6 +33,7 @@ class TopMenu extends Component {
         </Link>
         <NavLink id='topMenuTextContainer'>
           <Nav to={'/contact-us'} className='topMenuText'>Contact Us</Nav>
+          <Nav to={'/testimonials'} className='topMenuText'>Testimonials</Nav>
           <Nav to={'/about'} className='topMenuText'>About</Nav>
           <Nav exact to={'/'} className='topMenuText'>Home</Nav>
         </NavLink>

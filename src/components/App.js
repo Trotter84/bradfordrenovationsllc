@@ -12,6 +12,7 @@ import './App.css';
 import TopMenu from './menus/TopMenu';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
+import Testimonials from './pages/Testimonials';
 import ContactUs from './pages/ContactUs';
 import Careers from './pages/Careers';
 import Footer from './menus/Footer';
@@ -40,6 +41,7 @@ class App extends Component {
                 <Switch>
                   <Route exact path='/' component={Home} />
                   <Route path='/about' component={AboutUs} />
+                  <Route path='/testimonials' component={Testimonials} />
                   <Route path='/contact-us' component={ContactUs} />
                   <Route path='/careers' component={Careers} />
                   <Redirect to='/' />
