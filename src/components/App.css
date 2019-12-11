@@ -225,7 +225,6 @@
 
 #testimonialWhiteContainer {
   display: inline-block;
-  text-align: center;
   width: 100%;
   height: auto;
 }
@@ -233,7 +232,6 @@
 #quoteContainer {
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding: 15px;
 }
 
@@ -243,6 +241,7 @@
 
 #quoteName {
   font-family: 'Roboto', sans-serif;
+  align-self: center;
 }
 /* ------------------------------------------------------------------------- */
 
