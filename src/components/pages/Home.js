@@ -10,8 +10,6 @@ import BathroomMirror from '../../images/IMG_8307.jpg';
 import BathroomShower from '../../images/IMG_8311.jpg';
 import LaundryRoom from '../../images/IMG_8322.jpg';
 
-import Footer from '../menus/Footer';
-
 
 class Home extends Component {
 
