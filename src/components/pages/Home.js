@@ -21,7 +21,7 @@ class Home extends Component {
             <Carousel id='homePhotoContainer' autoPlay interval={4000} showThumbs={false} infiniteLoop>
                 <div className='frontPagePhoto1'>
                   <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring' />
-                  <p className='homeBottomPhotoText'>Heart Warming Living Room</p>
+                  <p className='homeBottomPhotoText'>Heart Warming Living Rooms</p>
                 </div>
                 <div className='frontPagePhoto2'>
                   <img src={Kitchen} className='frontPageImage' alt='Kitchen' />
