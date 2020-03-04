@@ -23,44 +23,37 @@ class Home extends Component {
             <Carousel id='homePhotoContainer' autoPlay interval={4000} showThumbs={false} infiniteLoop>
                 <div className='frontPagePhoto1'>
                   <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring' />
+                  <p className='homeBottomPhotoText'>Heart Warming Living Room</p>
                 </div>
                 <div className='frontPagePhoto2'>
                   <img src={Kitchen} className='frontPageImage' alt='Kitchen' />
+                  <p className='homeBottomPhotoText'>Breathtaking Kitchens</p>
                 </div>
                 <div className='frontPagePhoto3'>
                   <img src={BathroomTub} className='frontPageImage' alt='Bathroom' />
+                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
                 </div>
+
+                <div className='frontPagePhoto4'>
+                  <img src={BathroomMirror} className='frontPageImage' alt='Bathroom facing mirror' />
+                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
+                </div>
+                <div className='frontPagePhoto5'>
+                  <img src={BathroomFromDoor} className='frontPageImage' alt='Bathroom from door angle' />
+                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
+                </div>
+                <div className='frontPagePhoto6'>
+                  <img src={BathroomShower} className='frontPageImage' alt='Bathroom shower' />
+                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
+                </div>
+                <div className='frontPagePhoto7'>
+                  <img src={LaundryRoom} className='frontPageImage' alt='Laundry room' />
+                  <p className='homeBottomPhotoText'>Efficient Laundry Rooms</p>
+                </div>
+
             </Carousel>
           </div>
         </div>
-        <div id='blackDividerArea'></div>
-        <div id='bottomBackground'>
-          <div id='blackLayerBottom'>
-            <div id='carouselContainer2'>
-              <div id='carouselSubContainer2'>
-                <Carousel id='homePhotoContainer2' autoPlay interval={4000} showThumbs={false} infiniteLoop>
-                    <div className='frontBottomPagePhoto'>
-                      <img src={BathroomMirror} className='frontPageImage' alt='Bathroom facing mirror' />
-                      <p className='homeBottomPhotoText'>Bathroom</p>
-                    </div>
-                    <div className='frontBottomPagePhoto'>
-                      <img src={BathroomFromDoor} className='frontPageImage' alt='Bathroom from door angle' />
-                      <p className='homeBottomPhotoText'>Bathroom</p>
-                    </div>
-                    <div className='frontBottomPagePhoto'>
-                      <img src={BathroomShower} className='frontPageImage' alt='Bathroom shower' />
-                      <p className='homeBottomPhotoText'>Bathroom</p>
-                    </div>
-                    <div className='frontBottomPagePhoto'>
-                      <img src={LaundryRoom} className='frontPageImage' alt='Laundry room' />
-                      <p className='homeBottomPhotoText'>Laundry Room</p>
-                    </div>
-                </Carousel>
-              </div>
-            </div>
-          </div>
-        </div>
-        <Footer />
       </div>
     )
   }
