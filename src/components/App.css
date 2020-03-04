@@ -20,6 +20,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #2b3d4f;
+  box-shadow: 1px 2px 10px rgb(0, 0, 0, 0.6);
   height: 100px;
 }
 
@@ -39,6 +40,7 @@
   float: left;
   color: #ffffff;
   font-size: 3em;
+  padding-top: 5px;
   padding-left: 0em;
   text-shadow: 0.5px 0.5px black;
 }
@@ -145,12 +147,6 @@
   position: relative;
 }
 
-.frontBottomPagePhoto {
-  border-style: solid;
-  border-width: 2px;
-  border-color: #303030;
-}
-
 .homeBottomPhotoText {
   font-family: 'Marck Script', cursive, 'Roboto Condensed', sans-serif;
   position: absolute;
@@ -159,7 +155,7 @@
   padding: 5px 7px;
   font-size: 40px;
   color: white;
-  bottom: 20px;
+  bottom: 25px;
   left: 2px;
 }
 /* ------------------------------------------------------------------------- */
@@ -197,14 +193,14 @@
   display: inline-block;
   text-align: center;
   width: 95%;
-  height: 450px;
+  height: 430px;
 }
 
 #aboutUsText {
   display: inline-block;
   text-align: center;
   max-width: 95%;
-  font-size: 25px;
+  font-size: 23px;
   position: relative;
   top: 6em;
 }
