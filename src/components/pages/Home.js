@@ -7,7 +7,6 @@ import Kitchen from '../../images/kitchenBackgroundFULL.jpg';
 import BathroomTub from '../../images/bathroomTub.jpg';
 import BathroomFromDoor from '../../images/IMG_8319.jpg';
 import BathroomMirror from '../../images/IMG_8307.jpg';
-import BathroomShower from '../../images/IMG_8311.jpg';
 import LaundryRoom from '../../images/IMG_8322.jpg';
 
 
