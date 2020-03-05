@@ -19,34 +19,35 @@ class Home extends Component {
         <div id='carouselContainer'>
           <div id='carouselSubContainer'>
             <Carousel id='homePhotoContainer' autoPlay interval={4000} showThumbs={false} infiniteLoop>
+
                 <div className='frontPagePhoto1'>
                   <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring' />
-                  <p className='homeBottomPhotoText'>Heart Warming Living Rooms</p>
+                  <p className='homeBottomPhotoText'>Welcoming Living Rooms</p>
                 </div>
+
                 <div className='frontPagePhoto2'>
+                  <img src={BathroomTub} className='frontPageImage' alt='Bathroom showing bath tub' />
+                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
+                </div>
+
+                <div className='frontPagePhoto3'>
                   <img src={Kitchen} className='frontPageImage' alt='Kitchen' />
                   <p className='homeBottomPhotoText'>Breathtaking Kitchens</p>
-                </div>
-                <div className='frontPagePhoto3'>
-                  <img src={BathroomTub} className='frontPageImage' alt='Bathroom' />
-                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
                 </div>
 
                 <div className='frontPagePhoto4'>
                   <img src={BathroomMirror} className='frontPageImage' alt='Bathroom facing mirror' />
                   <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
                 </div>
+
                 <div className='frontPagePhoto5'>
-                  <img src={BathroomFromDoor} className='frontPageImage' alt='Bathroom from door angle' />
-                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
-                </div>
-                <div className='frontPagePhoto6'>
-                  <img src={BathroomShower} className='frontPageImage' alt='Bathroom shower' />
-                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
-                </div>
-                <div className='frontPagePhoto7'>
                   <img src={LaundryRoom} className='frontPageImage' alt='Laundry room' />
                   <p className='homeBottomPhotoText'>Efficient Laundry Rooms</p>
+                </div>
+
+                <div className='frontPagePhoto6'>
+                  <img src={BathroomFromDoor} className='frontPageImage' alt='Bathroom facing window' />
+                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
                 </div>
 
             </Carousel>
