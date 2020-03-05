@@ -675,10 +675,11 @@
 #topMenuLogoContainer {
   display: flex;
   flex-direction: row;
+  padding-top: 15px;
 }
 
 #topMenuLogo {
-  max-height: 95px;
+  max-height: 127px;
   color: #CB9D4E;
 }
 
@@ -854,7 +855,35 @@
 /* ------------------------------------------------------------------------- */
 
 /* ---------------------------- Testimonials ------------------------------ */
+#testimonialContainer {
+  box-shadow: 5px 6px 10px rgb(0, 0, 0, 0.8);
+  width: 95%;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+  top: 5em;
+}
 
+#testimonialWhiteContainer {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+}
+
+#quoteContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+#quoteText {
+  font-family: 'Roboto', sans-serif;
+}
+
+#quoteName {
+  font-family: 'Roboto', sans-serif;
+  align-self: center;
+}
 /* ------------------------------------------------------------------------- */
 
 /* ---------------------------- Contact Us Page ---------------------------- */
@@ -1245,7 +1274,7 @@
 .bottomMenuText {
   align-items: center;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   font-weight: bold;
   text-decoration: uppercase;
   width: 70px;

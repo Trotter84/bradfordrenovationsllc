@@ -16,29 +16,41 @@ class BottomMenuMobile extends Component {
   render() {
     return(
       <div id='bottomMenuMainContainer'>
+
         <Link to={'/home'} className='iconContainers'>
           <Icons className='icons' size='large' name="home">
             <p className='bottomMenuText'>Home</p>
           </Icons>
         </Link>
+
         <div className='vl' />
         <Link to={'/about'} className='iconContainers'>
           <Icons className='icons' size='large' name="user">
             <p className='bottomMenuText'>About</p>
           </Icons>
         </Link>
+
+        <div className='vl' />
+        <Link to={'/testimonials'} className='iconContainers'>
+          <Icons className='icons' size='large' name="quote left">
+            <p className='bottomMenuText'>Testimonials</p>
+          </Icons>
+        </Link>
+
         <div className='vl' />
         <Link to={'/contact-us'} className='iconContainers'>
           <Icons className='icons' size='large' name="comments">
             <p className='bottomMenuText'>Contact Us</p>
           </Icons>
         </Link>
+
         <div className='vl' />
         <Link to={'/careers'} className='iconContainers'>
           <Icons className='icons' size='large' name="briefcase">
             <p className='bottomMenuText'>Careers</p>
           </Icons>
         </Link>
+
       </div>
     )
   }
