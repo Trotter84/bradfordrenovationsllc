@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import FacePhoto from '../../images/facePicture.jpg';
+import FacePhoto from '../../images/drewAboutPage.jpg';
 
 class AboutUs extends Component {
 
