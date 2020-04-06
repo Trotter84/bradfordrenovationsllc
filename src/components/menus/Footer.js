@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import Styled from 'styled-components';
 
-import WhiteLogo from '../../images/BradfordReno-logo-white.png';
-
 
 const Title = Styled.h2`
   transition: all 200ms ease-in-out;
