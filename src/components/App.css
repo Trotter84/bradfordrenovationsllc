@@ -1,6 +1,6 @@
 /* ============================== Desktop Version ============================== */
 #mainAppContainer {
-  background: url(../images/background_highres.webp) no-repeat center;
+  background: url(../images/backgroundFull.jpg) no-repeat center;
   background-size: cover;
   height: 950px;
   width: 100%;
@@ -170,7 +170,7 @@
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  top: -7.5em;
+  top: -6em;
 }
 
 #aboutUsPhotoContainer {
@@ -184,6 +184,7 @@
 #aboutUsPhoto {
   box-shadow: 2px 3px 3px rgb(0, 0, 0, 0.8);
   width: 25em;
+  height: 14em;
   border-style: solid;
   border-width: 0.2em;
   border-color: black;
@@ -193,7 +194,7 @@
   display: inline-block;
   text-align: center;
   width: 95%;
-  height: 430px;
+  height: 380px;
 }
 
 #aboutUsText {
@@ -202,7 +203,8 @@
   max-width: 95%;
   font-size: 23px;
   position: relative;
-  top: 6em;
+  top: 5em;
+  padding-bottom: 1em;
 }
 /* ------------------------------------------------------------------------- */
 
@@ -660,7 +662,7 @@
 @media (max-width: 426px) {
 
 #mainAppContainer {
-  background-image: url(../images/kitchen-background.jpg);
+  background-image: url(../images/backgroundMobile.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 950px;
@@ -719,12 +721,12 @@
 #carouselContainer {
   box-shadow: 5px 6px 10px rgb(30, 30, 30, 0.8);
   background-color: white;
-  width: 90%;
+  width: 95%;
   height: 100%;
   margin: 0 auto;
   z-index: 1;
   position: relative;
-  margin-top: 5em;
+  margin-top: 8em;
   margin-bottom: 5em;
 }
 
