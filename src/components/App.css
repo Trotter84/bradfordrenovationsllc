@@ -215,7 +215,7 @@
   background-color: white;
   border-radius: 14px;
   box-shadow: 5px 6px 10px rgb(0, 0, 0, 0.8);
-  width: 95%;
+  width: 70%;
   margin: 0 auto;
   z-index: 1;
   position: relative;
@@ -240,6 +240,7 @@
 
 #quoteName {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
   align-self: center;
 }
 /* ------------------------------------------------------------------------- */
