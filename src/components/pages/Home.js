@@ -17,7 +17,7 @@ class Home extends Component {
       <div id='homeMainContainer'>
         <div id='carouselContainer'>
           <div id='carouselSubContainer'>
-            <Carousel id='homePhotoContainer' autoPlay interval={4000} showThumbs={false} infiniteLoop>
+            <Carousel id='homePhotoContainer' autoPlay infiniteLoop interval={4000} showThumbs={false} dots={false}>
 
                 <div className='frontPagePhoto1'>
                   <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring' />
