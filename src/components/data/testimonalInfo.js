@@ -5,7 +5,7 @@ const testimonialInfo = [
   },
   {
     name: 'Charlie',
-    quote: '"Bradford Renovations has done an extensive amount of work for us. Two full beautiful bathrooms, Kitchen, Flooring, well crafted molding and trim, superb painting and thorough cleanup. Their crew was always personable but professional. Willing to adjust to a somewhat picky homeowner, our projects all turned out better than we could have hoped. \nWe would recommend Bradford Renovations on any level of need you may have. We felt involved, respected for our opinion, and happy with the results of a job fairly priced and well done.  Every. Time."'
+    quote: '"Bradford Renovations has done an extensive amount of work for us. Two full beautiful bathrooms, Kitchen, Flooring, well crafted molding and trim, superb painting and thorough cleanup. Their crew was always personable but professional. Willing to adjust to a somewhat picky homeowner, our projects all turned out better than we could have hoped. We would recommend Bradford Renovations on any level of need you may have. We felt involved, respected for our opinion, and happy with the results of a job fairly priced and well done.  Every. Time."'
   }
 ]
 
