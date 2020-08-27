@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React, { useEffect } from 'react';
 import {
   Route,
   Switch,
   Redirect,
-  Router
+  useHistory,
 } from 'react-router-dom';
 import { ScrollManager, WindowScroller } from 'react-scroll-manager';
-import { createBrowserHistory as createHistory } from 'history';
 import './App.css';
 
 import TopMenu from './menus/TopMenu';
@@ -19,42 +18,35 @@ import Footer from './menus/Footer';
 import BottomMenuMobile from './menus/BottomMenuMobile';
 
 
-class App extends Component {
+function App() { 
 
-  componentDidMount() {
+  useEffect(() => {
     document.title='Bradford Renovations LLC'
-  }
+  }, [])
 
-  constructor() {
-    super();
-    this.history = createHistory();
-  }
+  const history = useHistory();
 
-  render() {
-    return (
-      <ScrollManager history={this.history}>
-        <Router history={this.history}>
-          <WindowScroller>
-            <div id='mainAppContainer'>
-              <div id='blackLayer'>
-                <TopMenu />
-                <Switch>
-                  <Route exact path='/' component={Home} />
-                  <Route path='/about' component={AboutUs} />
-                  <Route path='/testimonials' component={Testimonials} />
-                  <Route path='/contact-us' component={ContactUs} />
-                  <Route path='/careers' component={Careers} />
-                  <Redirect to='/' />
-                </Switch>
-                <BottomMenuMobile />
-              </div>
-            </div>
-            <Footer />
-          </WindowScroller>
-        </Router>
-      </ScrollManager>
-    );
-  }
+  return (
+    <ScrollManager history={history}>
+      <WindowScroller>
+        <div id='mainAppContainer'>
+          <div id='blackLayer'>
+            <TopMenu />
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/about' component={AboutUs} />
+              <Route path='/testimonials' component={Testimonials} />
+              <Route path='/contact-us' component={ContactUs} />
+              <Route path='/careers' component={Careers} />
+              <Redirect to='/' />
+            </Switch>
+            <BottomMenuMobile />
+          </div>
+        </div>
+        <Footer />
+      </WindowScroller>
+    </ScrollManager>
+  );
 }
 
 export default App;

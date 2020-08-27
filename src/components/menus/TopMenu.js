@@ -12,7 +12,7 @@ const Title = Styled.h1`
   }
 `
 
-const Nav = Styled(Link)`
+const Nav = Styled(NavLink)`
   transition: all 200ms ease-in-out;
   &:hover,&.active {
     color: black;
@@ -31,12 +31,12 @@ class TopMenu extends Component {
           <img src={WhiteLogo} alt="Bradford Renovations Logo" id='topMenuLogo'></img>
           <Title id='topMenuTitle'>Bradford Renovations LLC</Title>
         </Link>
-        <NavLink id='topMenuTextContainer'>
+        <div id='topMenuTextContainer'>
           <Nav to={'/contact-us'} className='topMenuText'>Contact Us</Nav>
           <Nav to={'/testimonials'} className='topMenuText'>Testimonials</Nav>
           <Nav to={'/about'} className='topMenuText'>About</Nav>
           <Nav exact to={'/'} className='topMenuText'>Home</Nav>
-        </NavLink>
+        </div>
       </div>
     )
   }
