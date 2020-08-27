@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, CSSProperties } from 'react';
 import { Image } from 'semantic-ui-react';
 import MainPhoto from '../images/kitchen-background.jpg'
 
@@ -6,11 +6,11 @@ const styles = {
   page:{
     height: '100%',
     position: 'relative',
-  },
+  } as CSSProperties,
 
   image:{
     position: 'absolute',
-  },
+  } as CSSProperties,
 }
 
 

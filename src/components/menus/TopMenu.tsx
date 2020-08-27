@@ -15,10 +15,11 @@ const Title = Styled.h1`
 const Nav = Styled(NavLink)`
   transition: all 200ms ease-in-out;
   &:hover,&.active {
-    color: black;
+    color: #6385A8;
   }
   &.active {
-    color: black;
+    color: #6385A8;
+    text-decoration: underline;
   }
 `
 

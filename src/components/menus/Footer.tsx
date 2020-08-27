@@ -13,7 +13,7 @@ const Title = Styled.h2`
 const Nav = Styled(NavLink)`
   transition: all 200ms ease-in-out;
   &:hover {
-    color: #57aa52;
+    color: #344F6B;
   }
 `
 

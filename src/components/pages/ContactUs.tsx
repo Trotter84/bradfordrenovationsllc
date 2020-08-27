@@ -1,8 +1,24 @@
 import React, { Component } from 'react';
 import { Image, Icon } from 'semantic-ui-react';
 import NetlifyForm from 'react-netlify-form'
+import Styled from 'styled-components';
+
 
 import SidePhoto from '../../images/diningRoom.jpg'
+
+const Input = Styled.input`
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid #344F6B;
+  margin-bottom: 1px;
+  display: block;
+  margin-top: 8px;
+  :focus {
+    border-bottom: 2px solid #344F6B;
+    margin-bottom: 0px;
+    outline: none;
+  }
+`
 
 
 class ContactUs extends Component {
@@ -28,10 +44,10 @@ class ContactUs extends Component {
                 }
                 {!loading && !success &&
                   <div id='contactFormContainer'>
-                      <label id="contactNameContainer">Name: <input id="contactName" type="text" name="name" /></label>
-                      <label id="contactEmailContainer">Email: <input id="contactEmail" type="email" name="email" /></label>
-                      <label id="contactPhoneContainer">Phone: <input id="contactPhone" type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
-                      <label id="contactMessageContainer">Message: <textarea id="contactMessage" name="message"></textarea></label>
+                      <label id="contactNameContainer">Name: <Input id="contactName" type="text" name="name" /></label>
+                      <label id="contactEmailContainer">Email: <Input id="contactEmail" type="email" name="email" /></label>
+                      <label id="contactPhoneContainer">Phone: <Input id="contactPhone" type="tel" name="phone" placeholder="012-345-6789" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required /></label>
+                      <label id="contactMessageContainer">Message: <Input as="textarea" id="contactMessage" name="message" /></label>
                       <button type="submit" id="contactSubmit">Send</button>
                   </div>
                 }
