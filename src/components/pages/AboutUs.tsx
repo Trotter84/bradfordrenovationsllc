@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import FacePhoto from '../../images/drewAboutPage.jpg';
+import FacePhoto from '../../images/drewAboutPageWithSam.jpeg';
 
 class AboutUs extends Component {
 
@@ -8,7 +8,7 @@ class AboutUs extends Component {
     return(
       <>
         <div id='aboutUsPhotoContainer'>
-          <img src={FacePhoto} id='aboutUsPhoto' alt='Andrew Bradford, with truck and trailer' />
+          <img src={FacePhoto} id='aboutUsPhoto' alt='Andrew Bradford, with son' />
         </div>
         <div id='aboutUsContainer'>
 
