@@ -4,9 +4,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg';
 import Kitchen from '../../images/kitchenBackgroundFULL.jpg';
+import KitchenWindow from '../../images/kitchenSinkWindow.jpg';
 import BathroomTub from '../../images/bathroomTub.jpg';
-import BathroomFromDoor from '../../images/IMG_8319.jpg';
-import BathroomMirror from '../../images/IMG_8307.jpg';
+import Bathroom from '../../images/whiteMarbleBathroom.jpg';
+import FlowerGarden from '../../images/flowerGarden.jpg';
 import LaundryRoom from '../../images/IMG_8322.jpg';
 
 
@@ -35,8 +36,8 @@ class Home extends Component {
                 </div>
 
                 <div className='frontPagePhoto4'>
-                  <img src={BathroomMirror} className='frontPageImage' alt='Bathroom facing mirror' />
-                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
+                  <img src={FlowerGarden} className='frontPageImage' alt='Garden on a wall with steps leading up' />
+                  <p className='homeBottomPhotoText'>Beautiful Gardens</p>
                 </div>
 
                 <div className='frontPagePhoto5'>
@@ -45,8 +46,13 @@ class Home extends Component {
                 </div>
 
                 <div className='frontPagePhoto6'>
-                  <img src={BathroomFromDoor} className='frontPageImage' alt='Bathroom facing window' />
+                  <img src={Bathroom} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
                   <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
+                </div>
+
+                <div className='frontPagePhoto7'>
+                <img src={KitchenWindow} className='frontPageImage' alt='Kitchen window' />
+                  <p className='homeBottomPhotoText'>Breathtaking Kitchens</p>
                 </div>
 
             </Carousel>
