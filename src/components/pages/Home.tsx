@@ -13,14 +13,8 @@ import FlowerGarden from '../../images/flowerGarden.jpg';
 import LaundryRoom from '../../images/IMG_8322.jpg';
 
 
-const QuoteContainer = Styled(Link)`
-  display: flex;
-  justify-content: center;
-`
-
 const QuoteButton = Styled.button`
   font-family: 'Roboto Slab', serif;
-  margin-top: 1.5em;
   width: 170px;
   height: 50px;
   font-size: 24px;
@@ -43,9 +37,11 @@ class Home extends Component {
     return(
       <div id='homeMainContainer'>
 
-        <QuoteContainer to={'/contact-us'}>
-          <QuoteButton>Get a Quote</QuoteButton>
-        </QuoteContainer>
+        <div id='quoteContainer'>
+          <Link to={'/contact-us'}>
+            <QuoteButton>Get a Quote</QuoteButton>
+          </Link>
+        </div>
 
 
         <div id='carouselContainer'>
