@@ -13,21 +13,27 @@ import FlowerGarden from '../../images/flowerGarden.jpg';
 import LaundryRoom from '../../images/IMG_8322.jpg';
 
 
+const QuoteContainer = Styled(Link)`
+  display: flex;
+  justify-content: center;
+`
+
 const QuoteButton = Styled.button`
-  margin-top: 2em;
-  margin-left: 14em;
-  width: 200px;
+  font-family: 'Roboto Slab', serif;
+  margin-top: 1.5em;
+  width: 170px;
   height: 50px;
-  font-size: 20px;
+  font-size: 24px;
   appearance: none;
   border: none;
-  border-radius: 12px;
+  border-radius: 6px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
   cursor: pointer;
-  :hover {
-    opacity: 0.7;
+  transition: all 200ms ease-in-out;
+  &:hover {
+    box-shadow: inset 4px 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
+    opacity: 1;
   }
-
 `
 
 
@@ -37,9 +43,9 @@ class Home extends Component {
     return(
       <div id='homeMainContainer'>
 
-        <Link to={'/contact-us'}>
-          <QuoteButton>Get A Quote Now</QuoteButton>
-        </Link>
+        <QuoteContainer to={'/contact-us'}>
+          <QuoteButton>Get a Quote</QuoteButton>
+        </QuoteContainer>
 
 
         <div id='carouselContainer'>
