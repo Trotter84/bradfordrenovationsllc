@@ -8,7 +8,10 @@ import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg';
 import Kitchen from '../../images/kitchenBackgroundFULL.jpg';
 import KitchenWindow from '../../images/kitchenSinkWindow.jpg';
 import BathroomTub from '../../images/bathroomTub.jpg';
-import Bathroom from '../../images/whiteMarbleBathroom.jpg';
+import Bedroom1 from '../../images/bedroom_suite_photo_2.jpg';
+import Bedroom2 from '../../images/bedroom_suite_photo_1.jpg';
+import Bedroom3 from '../../images/bedroom_suite_photo_3.jpg';
+
 import FlowerGarden from '../../images/flowerGarden.jpg';
 import LaundryRoom from '../../images/IMG_8322.jpg';
 
@@ -26,7 +29,6 @@ const QuoteButton = Styled.button`
   transition: all 200ms ease-in-out;
   &:hover {
     box-shadow: inset 4px 4px 8px 0 rgba(0,0,0,0.2), 0 3px 10px 0 rgba(0,0,0,0.19);
-    opacity: 1;
   }
 `
 
@@ -74,11 +76,21 @@ class Home extends Component {
                 </div>
 
                 <div className='frontPagePhoto6'>
-                  <img src={Bathroom} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
-                  <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
+                  <img src={Bedroom1} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
+                  <p className='homeBottomPhotoText'>Spectacular Bedroom Suites</p>
                 </div>
 
                 <div className='frontPagePhoto7'>
+                  <img src={Bedroom2} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
+                  <p className='homeBottomPhotoText'>Inviting Bedrooms</p>
+                </div>
+                
+                <div className='frontPagePhoto8'>
+                  <img src={Bedroom3} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
+                  <p className='homeBottomPhotoText'>Inviting Bedrooms</p>
+                </div>
+
+                <div className='frontPagePhoto9'>
                 <img src={KitchenWindow} className='frontPageImage' alt='Kitchen window' />
                   <p className='homeBottomPhotoText'>Breathtaking Kitchens</p>
                 </div>
