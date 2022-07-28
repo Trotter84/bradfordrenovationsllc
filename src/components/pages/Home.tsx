@@ -6,6 +6,7 @@ import Styled from 'styled-components';
 
 import JeffsDen2 from '../../images/IMG_8042.CR2-ed.jpg';
 import Kitchen from '../../images/kitchenBackgroundFULL.jpg';
+import KitchenWide from '../../images/kitchen_wide.jpg';
 import KitchenWindow from '../../images/kitchenSinkWindow.jpg';
 import BathroomTub from '../../images/bathroomTub.jpg';
 import Bedroom1 from '../../images/bedroom_suite_photo_2.jpg';
@@ -51,46 +52,51 @@ class Home extends Component {
             <Carousel autoPlay infiniteLoop interval={4000} showThumbs={false} showIndicators={false}>
 
               <div className='frontPagePhoto1'>
+                <img src={KitchenWide} className='frontPageImage' alt='Kitchen wide shot' />
+                <p className='homeBottomPhotoText'>Breathtaking Kitchens</p>
+              </div>
+
+              <div className='frontPagePhoto2'>
                 <img src={Bedroom1} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
                 <p className='homeBottomPhotoText'>Spectacular Bedroom Suites</p>
               </div>
 
-                <div className='frontPagePhoto2'>
+                <div className='frontPagePhoto3'>
                   <img src={JeffsDen2} className='frontPageImage' alt='Living room with new flooring' />
                   <p className='homeBottomPhotoText'>Welcoming Living Rooms</p>
                 </div>
 
-              <div className='frontPagePhoto3'>
+              <div className='frontPagePhoto4'>
                 <img src={Kitchen} className='frontPageImage' alt='Kitchen' />
                 <p className='homeBottomPhotoText'>Breathtaking Kitchens</p>
               </div>
 
-              <div className='frontPagePhoto4'>
+              <div className='frontPagePhoto5'>
                 <img src={Bedroom2} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
                 <p className='homeBottomPhotoText'>Inviting Bedrooms</p>
               </div>
 
-              <div className='frontPagePhoto5'>
+              <div className='frontPagePhoto6'>
                 <img src={FlowerGarden} className='frontPageImage' alt='Garden on a wall with steps leading up' />
                 <p className='homeBottomPhotoText'>Beautiful Gardens</p>
               </div>
 
-                <div className='frontPagePhoto6'>
+                <div className='frontPagePhoto7'>
                   <img src={BathroomTub} className='frontPageImage' alt='Bathroom showing bath tub' />
                   <p className='homeBottomPhotoText'>Spectacular Bathrooms</p>
                 </div>
 
-              <div className='frontPagePhoto7'>
+              <div className='frontPagePhoto8'>
                 <img src={KitchenWindow} className='frontPageImage' alt='Kitchen window' />
                 <p className='homeBottomPhotoText'>Breathtaking Kitchens</p>
               </div>
                 
-                <div className='frontPagePhoto8'>
+                <div className='frontPagePhoto9'>
                   <img src={Bedroom3} className='frontPageImage' alt='Bathroom showing stairs on left, sinks in the middle, and toilet in small room on the right' />
                   <p className='homeBottomPhotoText'>Inviting Bedrooms</p>
                 </div>
 
-              <div className='frontPagePhoto9'>
+              <div className='frontPagePhoto10'>
                 <img src={LaundryRoom} className='frontPageImage' alt='Laundry room' />
                 <p className='homeBottomPhotoText'>Efficient Laundry Rooms</p>
               </div>
