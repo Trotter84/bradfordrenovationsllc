@@ -178,6 +178,7 @@
 }
 
 .homeBottomPhotoText {
+  display: none;
   font-family: 'Marck Script', cursive, 'Roboto Condensed', sans-serif;
   position: absolute;
   background-color: rgb(0, 0, 0, 0.7);
