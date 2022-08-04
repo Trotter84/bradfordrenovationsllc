@@ -77,7 +77,7 @@ class Home extends Component {
               </div>
 
               <div className='frontPagePhoto5'>
-                <img src={FrontHouse} className='frontPageImage' alt='Front side of a house and garden' />
+                <img src={FrontHouse} className='frontPageImage' alt='Front side of a house with before and after' />
                 <p className='homeBottomPhotoText'></p>
               </div>
 
@@ -87,7 +87,7 @@ class Home extends Component {
               </div>
 
               <div className='frontPagePhoto7'>
-                <img src={HexBathroom} className='frontPageImage' alt='Bathroom with hex design. One of sink and mirror, and second photo of the shower' />
+                <img src={HexBathroom} className='frontPageImage' alt='Bathroom with hex design. One of sink and mirror, and second of the shower' />
                 <p className='homeBottomPhotoText'></p>
               </div>
 
