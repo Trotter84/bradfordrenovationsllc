@@ -692,7 +692,7 @@
 
 
 /* ============================== Mobile Version ============================== */
-@media (max-width: 426px) {
+@media (max-width: 465px) {
 
 #mainAppContainer {
   background-image: url(../images/backgroundMobile.jpg);
